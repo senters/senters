@@ -353,20 +353,19 @@
    2018).
 
    Fortuitously, there is a competing mathematical account of optimal
-   grip called Empowerment Maximization (EM) (Klyubin, Polani, Nehaniv
-   2005) that like FEP is also expressed in terms of Shannon
-   information (not to be confused with Gibson ecological information)
-   and is remarkably similar in other ways as well (Biehl et al 2018).
-   Empowerment has the advantage of being control-oriented,
-   non-representational, and geared toward an understanding of
-   embodied agents situated among affordances from its initial
-   formulation.  Empowerment is defined as the channel capacity of an
-   agent's actuation channel, and formalizes the empirical observation
-   that all agents seek to maximize the variety of their potential
-   options to affect their environment.  The outcome of maximizing
-   this utility function is that agents position themselves for
-   maximal readiness to act in a wide range of eventualities without
-   having to anticipate them.
+   grip called Empowerment Maximization (EM) (Klyubin et al 2005) that
+   like FEP is also expressed in terms of Shannon information (not to
+   be confused with Gibson ecological information) and is remarkably
+   similar in other ways as well (Biehl et al 2018).  Empowerment has
+   the advantage of being control-oriented, non-representational, and
+   geared toward an understanding of embodied agents situated among
+   affordances from its initial formulation.  Empowerment is defined
+   as the channel capacity of an agent's actuation channel, and
+   formalizes the empirical observation that all agents seek to
+   maximize the variety of their potential options to affect their
+   environment.  The outcome of maximizing this utility function is
+   that agents position themselves for maximal readiness to act in a
+   wide range of eventualities without having to anticipate them.
 
    The EM account of optimal grip on a field of solicitations offers
    an enhanced perspective on mechanisms of cooperative communication.
