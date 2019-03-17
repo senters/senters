@@ -1,0 +1,664 @@
+* Centers of Attention: a Scaffolded Ecological Information Framework
+
+** Introduction
+
+   Research on joint attention in primates and human infants has
+   uncovered a framework of cooperative communication unique to
+   humans: at around 9 months of age, we begin to use gestural signals
+   to share, follow into, and direct what adults attend to (Carpenter,
+   Nagell, Tomasello 1998, Tomasello 2008). These skills suggest an
+   innate disposition to assist others by guiding attentional focus as
+   an effective means toward shared objectives.  These behaviors,
+   especially when augmented by tools and repeatable practices for
+   motivating and guiding attention, are referred to as scaffolding.
+   This framework of cooperative communication has received wide
+   attention as an explanation of the origin and present source of the
+   unique human niche, characterized by the ubiqitous exchange of
+   shared intentional practices and narratively curated content.
+
+   In light of recent developments in enactive cognitive science,
+   joint attention-based cooperative communication fits naturally into
+   an account of ecological information, also known as Gibson
+   information, a theory of information as specification by fit
+   between organism and environment.  Specifying the human attentional
+   and cultural niche in this way promises to revolutionize
+   anthropology and psychology, facilitating the engineering of
+   technological extensions of agency and content-involving practices.
+
+   Ecologial information can be categorized in terms of four distinct
+   modes of meaningful world-involving encounter, consituting an
+   "ecological information protocol stack".
+
+   1. law-based: affordances support direct perception (Gibson 1966,
+      1979).
+   2. convention-based: conventionality supports selecting among
+      possbl11e affordances to attend to (Golonka 2015).
+   3. scaffolded: scaffolding of joint attention establishes
+      convention-based structured composition of intentional practices
+      (Tomasello 2008).
+   4. curated: public symbol systems in the socially shared
+      environment enable content-involving sense-making by socially
+      establishing standards for evaluating scaffolded practices
+      (Wittgenstein 1953, Hutto & Myin 2013, 2017).
+
+   Situated within the broader effort to leverage the ecological
+   approach as a unified theory of intelligent agency, the Skilled
+   Intentionality Framework (SIF) (Rietveld & Kiverstein 2014) has
+   been developed.  SIF and related work applying it seeks to extend
+   the definition of affordance to include things like "cultural
+   affordances" so-called (Ramstead, Veissiere, Kirmayer 2016).  What
+   we can take from the SIF work is an appreciation of the importance
+   of "solicitations" or task-relevant engagement with a selected
+   ensemble of affordances.  However, some modifications are in order.
+   The predictive approach entailed by Friston's "free energy
+   principle" is untenably representational at base (Hutto 2018) and
+   incompatible with the cybernetic or control-oriented ontology of
+   ecological psychology (Turvey 1992, Turvey & Carello 2012) and as
+   such we contend Empowerment Maximization (Klyubin, Polani, Nehaniv
+   2005), is a more apt account of how agents embody an optimal grip
+   on a field of affordances.  Further, their extended definitions of
+   affordance confuse and conflate distinct modes of information.  As
+   a matter of empirically-motivated definition (in that affordances
+   must support direct perception), "affordance" implies strictly the
+   law-based mode of ecological information that underpins convention
+   (Golonka 2015).  Ramstead et al's claim of regimes of shared
+   attention and shared intentionality however is appropriate and we
+   develop a narrower definition of "centers of attention" recognizing
+   three basic motive factors of availability to engage, support, and
+   realize the objective of the iterative feedback cycle of
+   cooperative attention to a center, that convention-based
+   information can provide robust scaffolding.  Scaffolding can be
+   effective at supporting cultural acquisition, despite not direcly
+   guiding action as the affordances involved in this process do.
+
+   Scaffolding of joint attention is by its very nature an artficial
+   practice, and modern technology offers new prosthetic options with
+   which to conduct it.  The emerging "metaverse" of software
+   mediating immersive augmentation of direct and shared experiences
+   offers an opportunity to prosthetically extend the core joint
+   attentional framework of cooperative communication.  The proposed
+   architectural pattern of "narrative practice scaffolding" being
+   implemented in the tentative Senters framework, seeks to increase
+   the leverage of scaffolded ecological information by augumenting
+   gestural signaling with respect to instrumented affordance
+   availability threshold events in relation to the motive factors of
+   engaging, supporting, and realizing centers of attention.  As such,
+   the familiar means of scaffolding centers of attention can be made
+   legible to computing tools.  Software mediated expression of
+   scaffolded ecological information can allow software agents to
+   navigate and support human intention, including social maintenance
+   of propositional content, empowering users to casually and
+   spontaneously curate meaningfully augmented experiences.  To those
+   ends, this article initiates an effort to designed a framework of
+   this kind, beginning with a specification that will evolve as
+   implementation proceeds apace.
+
+** Law-based Ecological Information
+
+   In the second half of the 20th century, James and Eleanor Gibson
+   began the project of developing a phenomenology of perception as
+   prospective biological control guided by affordances of the
+   physical environment.  Rejecting the Cartesian view of perception
+   being the result of enriching raw sensory input, they arrived at a
+   theory of perceptual development consistent with the biological
+   understanding of development as differentiation, and of perceptual
+   control systems rather than sensations.  This work produced a
+   comprehensive theory of information in terms of the direct fit
+   between agents and law-based dispositions of the environment.
+   Invariant physical patterns, such as regularities in the array of
+   light reflecting upon surfaces over perspectival movement at the
+   relevant scale, can specify affordances.  Affordances, such as a
+   walkable ground, or a climable tree, specify reliable options to be
+   realized by forms of life that are able to use them.
+   Effectivities, which are the dispositional properties of agents
+   that complement affordances, can be innately evolved to fit
+   affordances or require differentiation in the course of development
+   to realize the affordances they fit.  Ecological psychologists uses
+   the term "task" to refer to an instance of prospective
+   control-oriented behavior, which is understood to characterize the
+   teleological nature of agents' behavior in general.  When an agent
+   actively engaged in a task uses affordances to guide itself toward
+   a preferable state, it is picking up on ecological information.
+   Embodiment of ecological information is the calibration of body and
+   environment in a kind of measured adjustment guided by affordance.
+   To acquire the information supporting perception-action in this way
+   is to measure affordances by the effectivities that fit them.  The
+   progress of ecological psychology as a science can be measured by
+   its success at discovering ecological laws, which are typically
+   expressed as differential equations describing the ecological
+   information embodied in the dynamic relationship between agent
+   effectivity and environmental affordance.  Ecological psychology
+   continues to discover such laws, enriching the knowledge of what
+   agents actionably percieve, in terms of what lawful relationships
+   of ecological information they may actively embody, taking
+   advantage of the niche of affordances they are situated among.
+
+** Convention-based Ecological Information
+
+   Affordances have the unique property of supporting direct
+   perception by specifying reliable action opportunities for
+   compatible and prepared agents, but direct perception is not the
+   only way for agents to acquire ecological information.  Agents also
+   come to embody ecological information by indirect, convention-based
+   means as well (Golonka 2015).  Convention-based information, unlike
+   law-based information, does not guide action, but rather selects,
+   or tips the balance between attending among available affordances
+   of the environment.  An example that serves well to elucidate why
+   is that the exterior of a can of beer does not specify the
+   information for getting to the outcome of drinking beer in the same
+   way that the reflectivity of a paved surface specifies the
+   information for slipping and sliding on ice, or the way that the
+   can affords opening by lifting its lever.  Instead what the
+   labeling of the can offers is a way of selecting the beer drinking
+   experience, which is then engaged via direct affordances of the can
+   and the liquid.  This account of the use of conventions to
+   selectively attend to the direct affordances that must be realized
+   in order to achieve the indicated outcome illustrates that some
+   actionable/perceivable event or feature (eg. a stop sign as object
+   in the layout of the environment) is always needed as a means of
+   selecting some other (eg. controlling one's vehicle in relation to
+   the expected behavior of other cars.)
+
+   As Golonka explores in detail, the convention-based/law-based
+   distinction does not map cleanly to distinctions such as natural
+   versus human-made or social versus nonsocial.  The most widely
+   popularized examples of law-based information tend to be natural,
+   non-social examples (such as the affordances of climbable trees to
+   animals that can climb them), but this is mainly for pedagogical
+   reasons due to their relative simplicity.  There are human-made,
+   non-social affordances such as steps, ramps, doorways, walkways,
+   and shelters, and natural social affordances such as infant crying
+   and facial expressions, and pointing gestures, which we will
+   explore in more detail.  Most social information is however
+   convention-based, both among humans and animal species.  Golonka
+   gives the example of the honeybee waggle dance, which might seem to
+   be a social affordance supporting an ecological law relationship
+   between honeybees and food sources, but is recognized instead as
+   convention-based natural social information because the conditions
+   it is sensitive to may blink in and out of existence.  The innate
+   and uniquely human pointing gesture in contrast is a natural social
+   affordance because it always follows the direction of the pointing
+   (as socially signaled gaze direction) linearly to an immediate
+   target.  For comparison, the human deictic convention of composing
+   phrases such as "the room we are in" is conventional, because it
+   can't be used to continuously guide action as a mathematically
+   expressible ecological law the way that pointing can.  And finally,
+   it should be clarified that despite the wealth of socially-oriented
+   examples, convention-based information need not be social, as
+   demonstrated by examples such as a domestic cat relying (often
+   unsuccesfully) on the sound of a can-opener to pursue an
+   opportunity for food, or a person deciding between two courses of
+   action based on the outcome of a coin flip.
+
+** Scaffolding Ecological Information for Cooperative Communication
+
+   Humans are uniquely distinguished in the natural world by our
+   propensity to socially coordinate on shared intentional practices.
+   What is the source of these unique abilities?  The most promising
+   answer to this question to date comes from the study of gesture and
+   joint attention.  A concrete way in which humans are observably
+   different from other primates is that around 9 months of age,
+   children show a special interest in what adults are attending to,
+   learn to follow what is being attended to, and use pointing
+   gestures to direct the focus of attention.  Other primates in
+   contrast demonstrate only rudimentary skills of attention-movement
+   (getting another primate to do something) and attention-getting
+   (calling attention to something the other will respond to in some
+   way) and do not engage shared attention to socially negotiable
+   centers of bearing.  What is interesting about human joint
+   attention from an evolutionary perspective is that it seems to
+   constitute a protocol of cooperative communication that can explain
+   the aspects of the human ecological niche that differ so
+   dramatically from other species.  Those aspects amount to what we
+   call culture, a kind of narratively constructed augmented reality
+   that we collectively participate in.  What seems to have given
+   human populations a comparative advantage is the ability to
+   cooperate better in groups, for example in hunting big game
+   animals.
+
+   The ecological approach illuminates a key aspect of the findings of
+   joint attention research: how social information of what to attend
+   to yields the social information of ostensibly why to attend to it.
+   According to the ecological approach, the basic stance of agents is
+   one of prospective control situated in a layout of objects known
+   only by events, encountered by means of prospective control.  For
+   the agent, prospective control "requires that one perceive whether
+   the act as a whole is possible, what subacts are possible with
+   respect to the surface layout, and the possible consequences of
+   current subacts if current (kinetic, kinematic) conditions persist"
+   (Turvey 1992).  For humans, the shared information for where to
+   focus attention is most informative in the context of Turvey's
+   three requirements, because it yields the convention-based
+   ecological information of motives for attending.  By signaling what
+   to attend to in the immediate context of engaging (option to enter
+   a center of attention), supporting (option to engage a center of
+   attention in support of the present center), or realizing (option
+   to engage a center of attention as a consequence of realizing the
+   present center), centers of attention become social accretions of
+   "when", "how", and "why" information by indicating that attending
+   fulfills an "engaging", "supporting", or "realizing" role
+   respectively, for a given center of attention.  I will call this
+   specific kind of convention-based information that joint attention
+   produces "scaffolded ecological information" because it aptly
+   suggests the cooperative context is what makes it useful.
+
+** Curating Scaffolded Ecological Information as Content
+
+   We have taken a tour of law-based information for guiding action,
+   convention-based information for selecting action, and scaffolded
+   information for cooperatively selecting action.  We have seen that
+   joint attentional scaffolding practices constitute a uniquely
+   expressive mode of interaction supporting sharing of intentional
+   practices.  But despite this expressive power, it is still
+   non-representational and content-free. Basic agents do not traffic
+   in facts of how matters in the world stand; fundamentally agents
+   have capacities, develop capacities, and in the case of human
+   scaffolded practices-- share capacities.  Cooperative
+   communication, even when conducted using language, is not a game of
+   truth but an exchange of skillful capacities, expressed as
+   effective directing of attention (Hutto & Myin 2013).  Agents as
+   autonomous control systems embody a basic end-directed
+   ur-intentionality requisite to the teleosemiotic character of
+   ecological "information for", but do not manipulate contents or
+   "information about".
+
+   But given that human actors in the natural world /do/ engage in the
+   social exchange and development of information as content, how do
+   we account for that?  An answer, perhaps unsurprisingly, begins
+   with scaffolded information.  Scaffolding of joint attention does
+   not itself yield content, but given symbol systems in the shared
+   environment, through which the utility of scaffolding may be
+   evaluated in game-like manner, communities of users of such systems
+   curate content, evaluating it on its status of satisfying
+   conditions of success or failure at its function (Hutto & Myin
+   2017, Wittgenstein 1957).  What characterizes content is meta-level
+   attention to the carrying out of scaffolded practices with an eye
+   to the consequences of being reorganized by them (Noë 2015). It is
+   a practice of attending to a public system in which symbols (such
+   as words or pictures) standing for scaffolded episodes, are invoked
+   for comparative consideration of utility.  This meta-level
+   practice, itself scaffolded cooperative communication as much as
+   any other, constitutes the curation of content because it allows
+   scaffolded practices to be compared and examined as alternative
+   devices or ways of seeing that are less or more appropriate for
+   objectives of involvement in the world.  Claim-making systems can
+   amount to binary truth evaluation, evaluation of relative merit, or
+   other ways of evaluating scaffolded practices construing
+   intentional behavior.
+
+   This understanding of scaffolding and curating practices leads to a
+   view of human culture as shared artifice: all cultural artifice
+   scaffolds information for selecting intentional behaviors, but not
+   all cultural artifice is content-bearing.  However the achievement
+   of content has so radically transformed what it means to have a
+   self or be a person in a society, that it cannot be overstated how
+   much of what we today call human happens as practices of curating
+   contact within public sense-making or claim-making systems.  The
+   development of language itself, likely mostly or entirely a human
+   (not innate) achievement, is a perfect example of a tool we
+   constantly use to scaffold attention for purposes of curating
+   content.  The same is true for other tools such as diagramming,
+   scorekeeping, musical notation, and computer programming language
+   code.  The capacity and reach of such practices stands to be
+   broadly extended by software augmentation of the human protocol of
+   joint attention, as we explore below.
+
+** Skilled Intentionality, Empowerment, and Regimes of Shared Attention
+
+   We have outlined most of a framework explaining human culture in
+   terms of ecological information: 1. affordances support direct
+   perception, 2. convention-based information supports selection
+   among options of what to attend to, 3. scaffolding of joint
+   attention establishes convention-based structured composition of
+   intentional practices, and 4. public symbol systems in the socially
+   shared environment enable content-involving sense-making by means
+   of evaluating scaffolded practices.  However, earlier in discussing
+   law-based and convention-based information we didn't tell the whole
+   story.  In addition to understanding prospective control with
+   respect to an given affordance, we also need to know how agents
+   solicit an ensemble of affordances relevant to the task at hand.
+   This question brings to the fore what is arguably the most defining
+   feature of attention, that of prioritization-- agents are always
+   under pressure to stay aware of what matters in their surroundings,
+   and must allocate focus wisely as events occur in real time.
+
+   The Skilled Intentionality Framework (SIF) (Rietveld & Kiverstein
+   2014, Bruineberg & Rietveld 2014) addresses precisely this question
+   of how agents engage with multiple affordances together relevantly.
+   The term "solicitation" is used to refer to such a set of
+   affordances that is selected as salient given a setting of
+   intentional control toward some end.  Taking a page from
+   Merleau-Ponty, agents are observed to seek out an "optimal grip" on
+   a field of solicitations.  Borrowing from the vocabulary of
+   Wittgenstein, the sort of selective openness to a relevant
+   solicitation of affordances is said to be appropriate to a
+   particular "form of life", defined as a relatively stable pattern
+   or norm of intentional behavior.  This in a nutshel is the high
+   level program of skilled intentionality.
+
+   SIF's formulation of optimal grip as presented by its authors is
+   believed to be realized by means of Karl Friston's Free Energy
+   Principle (FEP) (Friston, Kilner, Harrison 2006), a theory that
+   agents seek to minimize variational free energy, and consequently
+   end up forming models of the world and adjusting them to minimize
+   surprise in predicting the world.  While Rietveld et al make an
+   effort to give this information-theoretic framework a more radical
+   enactive makeover, it is problematic for two interrelated reasons:
+   it is a prediction theory, and it is a content-involving theory.
+   The basic ontology of the ecological approach is one of control, so
+   our candidate for a theory of optimal grip should be control-based.
+   Furthermore, there are strong reasons to be skeptical about even
+   the possibility of importing representation and content into basic
+   agency and direct perception-action (Hutto & Myin 2013, Hutto
+   2018).
+
+   Fortuitously, there is a competing mathematical account of optimal
+   grip called Empowerment Maximization (EM) (Klyubin, Polani, Nehaniv
+   2005) that like FEP is also expressed in terms of Shannon
+   information (not to be confused with Gibson ecological information)
+   and is remarkably similar in other ways as well (Biehl et al 2018).
+   Empowerment has the advantage of being control-oriented,
+   non-representational, and geared toward an understanding of
+   embodied agents situated among affordances from its initial
+   formulation.  Empowerment is defined as the channel capacity of an
+   agent's actuation channel, and formalizes the empirical observation
+   that all agents seek to maximize the variety of their potential
+   options to affect their environment.  The outcome of maximizing
+   this utility function is that agents position themselves for
+   maximal readiness to act in a wide range of eventualities without
+   having to anticipate them.
+
+   The EM account of optimal grip on a field of solicitations offers
+   an enhanced perspective on mechanisms of cooperative communication.
+   Given that agents are seeking to position themselves for maximal
+   leverage, this baseline attentional tendency can assist prosocial
+   behaviors, because it allows agents that are engaged in following
+   the overt motivations of their fellow agents to offer relevant (and
+   not already known to the other) directions that depend on having a
+   broader shared standard of utility.  Assuming the Tomasellian
+   framework for joint attentional scaffolding given above, this
+   utility applies equally to pointing out what is available,
+   supporting the presently active target of attention, or realizing
+   the present center of active attention.  The result of this is that
+   agents scaffolded by shared centers of attention can explore a
+   topology of relationships among scaffolded centers by maximizing
+   empowerment in addressing each of these three attentional concerns.
+   This mutual exchange, not only of useful scaffolding, but of
+   open-ended flows engaging topologies of possible scaffolded centers
+   of attention, is the hallmark of cooperative communication.
+
+   As a final note on the relevance of SIF to our scaffolded
+   ecological information framework (SEIF), there has been a proposal
+   to acknowledge something termed a "cultural affordance" (Ramstead,
+   Veissiere, Kirmayer 2016) as an explanation of how shared
+   intentional practices are acquired in culture.  The idea of
+   "cultural affordance" taken at face value is problematic in its
+   attempt to expand the definition of affordance to something
+   fundamentally incapable of supporting direct guidance of
+   perception/action, however, the intuitive motivation that
+   culturally available information is in some way similar to
+   affordances (despite technically being constituted as
+   convention-based information) is one we find valuable.  Affordances
+   following Gibson and later clarified by Turvey and others, are
+   dispositions of the environment specifying law-based information to
+   compatible agents.  Loosening this definition (and further
+   involving a dubious classification lumping together notions of
+   convention-based information generically, with what we've termed
+   scaffolded information) makes it harder to talk about real
+   affordances that have the defining property of supporting direct
+   perception.  However the cultural affordances paper, leaning on SIF
+   (which we can substitute with EM) proposes a notion of "regimes of
+   shared attention and shared intentionality" which are patterns of
+   practice characterized by feedback loops between joint attention
+   and coordinated intentional practices.  At high level of
+   description their formulation of regimes is quite similar to our
+   centers of scaffolded attention.  It is our contention that our
+   account of centers as nexuses of iterative collaborative feedback
+   over convention-based selection and composition fulfills the
+   requirements that Ramstead defines for acquisition of the shared
+   forms of life constituting culture.
+
+** Cooperative Communication by Coordination of Personal Scaffolding Systems
+
+   We wish to specify a framework for involving software in the human
+   ecological niche by means of augmenting the informational modes
+   we've explored here.  A natural starting point for a computing
+   framework that extends the innate human framework of cooperative
+   communication is the idea of a personal system for augmenting
+   intentional agency.  In the spirit of spirit of "bicycles for the
+   mind" (Licklider 1960, Engelbart 1962, Levy 2018) we will define a
+   "personal attentional scaffolding system" (PASS).  As a starting
+   point, a PASS is something like a personal journal where every
+   important event is privately recorded.  Many of these events are
+   emitted by tools that we do things with and instruments that
+   register measurements we care about.  In order for such a journal
+   to constitute a PASS it must support its owner's activities of
+   soliciting relevant arrays of events in contexts of intentional
+   practice.  So we must incorporate some form of agent-like control
+   into the organization of a personal event log for it to be a PASS.
+   The means by which we propose to do so is by deploying artificial
+   agents in our personal systems that learn to share, follow into,
+   and direct our attention in keeping with our intentions.  Finally,
+   in order to provide artificial agents with the information required
+   to work within scopes of intention, we need a way to express such
+   scopes, and that is precisely the scaffolded ecological information
+   framework developed above.  What is needed therefore is a schematic
+   standard by which to socially share and negotiate attention. So a
+   PASS requires a protocol for coordination of centers of attention
+   between participants.  In summary, a PASS requires:
+
+   1. A means of instrumenting and tracking personally and socially
+      relevant events.
+   2. Agents that leverage event data and centers of attention that
+      organize it, to augment personal attentional reorganization.
+   3. A protocol defining an event-sourced schematic standard for
+      collaboratively scaffolding centers of attention.
+
+   The protocol is the decisive component of this framework, because
+   it must specify a vocabulary of conventions for signaling attention
+   and its motivation.  These conventions must track scaffolded
+   ecological information explicitly, both as casually reorganized in
+   spontaneous situated engagement, and as meticulously reorganized in
+   choreography or architecture.  Scaffolded ecological information so
+   produced by socially situated use of the protocol in turn provides
+   agents with the context of shared intentional practices to augment.
+
+** Senters: A Protocol for Joint Attention and Narrative Practice Scaffolding
+
+   We propose Senters as a specific implementation of what we see as a
+   more generic architectural pattern for augmenting the human joint
+   attentional framework of cooperative communication, which we call
+   "narrative practice scaffolding" (NPS).  As the name implies, it
+   targets the full ecological information protocol stack, from
+   narratively curating content down to instrumenting directly engaged
+   affordances.
+
+   *Specification of PASS*
+
+   Specifying the senters protocol first requires specifying a PASS.
+   Assume at minimum two principal users P1 & P2 (P[]) situated within
+   a direct environment E.  Principals have private event log stream
+   processing systems P[].Li, and share messages over a p2p event log
+   stream processing system Lx supporting both public and encrypted
+   messages appended to logs and identified by public key identities
+   Lx.Pk[0..n], the same Pk identities used in Li as P[].Li.Pk[0..n].
+   Each principal (with no data shared between public key identities)
+   maintains a pool of agent processes P[].Pk[].Ag[0..n] that have
+   read access to events for P[].Pk[].  Environment E is constituted
+   by shared systems E.S[0..n] and personal systems P[].S[0..n].
+   Systems are engaged by way of instruments S[].I[0..n] which signal
+   I[].available event and respond to an I[].exercise event when
+   I[].available is true and submitter P[] is authorized, mechanically
+   engaging the instrumented affordance.  Principals communicate on
+   their feeds in messages Lx.Pk[].M[] to the attention of other
+   principals Lx.Pk[] as supported by the p2p event log protocol.
+   These messages suggest attentional scaffolding, which may be
+   accepted by the receiving principal by publishing it on Lx.Pk[].
+   Agents P[].Pk[].Ag[] read messages from feeds P[].Li.Pk[] and
+   Lx.Pk[] which list events related by the protocol defined below.
+   Agents suggest attentional scaffolding by sending messages to the
+   attention of P[].Li.Pk[].  Principals may accept these messages by
+   publishing them on Lx.Pk[].  An agent is a generic process in
+   search of scaffolding in support of the actively scaffolded center
+   of attention of its principal, optimizing for an optimal grip in
+   terms of effective options.  The space explored by agents is
+   defined in the specification of the protocol below.
+
+   To unpack what has been defined thus far,
+
+     * A system is a natural or artifical process that behaves
+       predictably.
+     * An instrument is a program that when paired with a system
+       registers threshold conditions of availability, and supports a
+       singular act of effect upon the system.  Instruments are
+       expected to be used by means of events on the PASS's internal
+       event stream.  Availability for action is the only feedback
+       offered by instruments, but instrumenting of systems can
+       involve a number of instruments, by which the availability of
+       one instrument serves as feedback of the effect of a prior
+       instrument, with respect to the system they pertain to.
+     * Agents are generic and adopt the stance of whatever center of
+       attention they are scaffolded by.  Agents do not themselves
+       exercise the effects of instruments or the centers they are
+       instrumented within, but rather only present them to their
+       principals who engage or dismiss them.
+     * PASS-augmented principals share messages with other
+       PASS-augmented peers. When principals settle on adopting the
+       same scaffolding, they share a message to indicate it, or
+       alternatively send a message indicating some alternate
+       intention.
+     * A PASS is here specified generically, so no recommendations
+       have been made on certain aspects that are very important to
+       their actual design and implementation, such as the UX of
+       visual, haptic, acoustic etc elements that are instrumented.
+       Further, while augmented reality and social immersion generally
+       are the primary target of interest because of our grounding in
+       direct ecological information, there is no recommendation on
+       that.  A PASS can apply to conventional desktop computing so
+       defined, though more impoverished in its involvment in
+       ecological information sources.
+
+   *Specification of Senters Protocol*
+
+   Because the PASS specification above omits the protocol that is
+   central to its operation, it leaves some important questions
+   unanswered.  What are the messages that principals and agents read
+   and write, and how do these messages express the scaffolding of
+   centers of attention?  Further, how are these messages related to
+   instrumented system events, such that scaffolding of attention has
+   bearing on the coordination of action in the shared situation of
+   principals?  These problems are what a protocol for collaboratively
+   scaffolding centers of attention addresses.
+
+   Messages shared by principals to the attention of other principals
+   Lx.Pk[].M[], and by agents to the attention of their principals
+   P[].Li.Pk[].Ag[].M[] consist of collections of events *.M[].E[>0],
+   containing as few as 1 event.  Event types include instrumented
+   system events E-ins and gesture events E-ges.  Instrumented system
+   events are of the form [:instrument uuid :exercise] or [:instrument
+   uuid :available] sharing that an instrument is being excercised or
+   available to exercise respectively (these identifiers are assumed
+   to be associated with the actual instruments in their concrete
+   implementations.)  Gesture events are of the form [:gesture
+   center-uuid :instrument instrument-uuid :base base] where base is
+   of the form :engage, :support, or :realize.  Centers are sourced
+   from gesture events that share reference to the same center-uuid,
+   and are fully defined by the accreted collection of gestures.
+   Centers can also be treated as instruments by issuing instrument
+   events of the form [:instrument center-uuid :exercise] or
+   [:instrument center-uuid :available], and referring to center-uuid
+   in the instrument slot of gesture events.  Centers register as
+   available when one or more instruments in their availability base
+   register as available.  Centers are being exercised when actively
+   engaged as iterative feedback toward realization conditions.
+
+   To expand on this,
+
+     * Instruments and their systems exist independently of the
+       protocol, but "instrumenting" is performed in the context of
+       center by means of gesture.  This is to say that instrumenting
+       is not neutral but done with indication of intention, as
+       supplied by gesture.  The term gesture is used in a technically
+       specific sense here as indicating an instrument's availability
+       as bearing on one of the three motive factors in the feedback
+       cycle of intentional practice: engagement, support, and
+       realization.  The pairing of instrument availability with
+       motive factor is what establishes intentionality.
+     * A system event instrumented for engagment of a center indicates
+       when to engage the center.  A system event instrumented for
+       support of a center indicates how to realize the center.  A
+       system event instrument realization of a center indicates why
+       to realize the center.  The collections of such system events
+       instrumented by motive factors constitute the respective three
+       bases of the center.  A center is thus pragmatically defined,
+       from its perspective, as a scheme of leveraging all relevant
+       events toward an outcome defined in terms of further
+       possbilities for action.
+     * Centers can also be defined in terms of other centers, by using
+       them as instruments.  When a center's base of engagement
+       registers (because an instrumented system event does so) that
+       center is available to engage. Likewise when center's base of
+       realization is in effect it itself is in effect.  As such, a
+       center is pragmatically defined a scheme of leveraging all
+       relevant centers toward the conditions constituted by the
+       center's realization base.  Every center is thus a kind of
+       position of capacity in which all other centers stand in
+       relation to that position.
+
+    *A Stroll Through the Activities of Agents and their Principals*
+
+    To complete a minimally useful specification of the protocol, we
+    must put it in the context of use, clarifying what should happen
+    in the situations it is applied to.  Principals Alice and Bob are
+    students in a course at a university.  Bob is confused about
+    something covered in the course material.  Alice issues a message
+    to begin helping Bob, on Lx.Pk[:alice-identity-for-this-course] to
+    the attention of P[:bob].Pk[:bob-identity-for-this-course].  For
+    shorthand we will notate principal-to-principal messages such as
+    this as A@B[...] listing the events of the message within square
+    brackets, and agent-to-principal messages like a@A[...] for
+    P[:alice].Li.Pk[:alice-identity-for...].Ag[:agent-identity...].
+    For some background, people in the course have access to tools for
+    replaying course materials, and Alice sends a link to a particular
+    moment in a past lecture that has been instrumented to log events.
+    Alice issues message relaying the logged instrument event and
+    gesturing it for the engagement base of a center: A@B[[:instrument
+    event-to-look-for :available], [:gesture
+    clarify-material :instrument event-to-look-for :base engage]].
+    Bob for his part issues B@A with the same message indicating his
+    attention.  The symbol clarify-material here stands for what Bob
+    learns is a well established center that many have attended to
+    before.  Bob learns this because his PASS has done its job of
+    dispatching an agent to be scaffolded by this center, and it has
+    found within the local network accessible to Bob's identity for
+    this course, and is already sending b@B[[:gesture
+    clarify-material :instrument supporting-material :base :support],
+    [:gesture clarify-material :instrument
+    comprehension-success :base :realize]].  These are picked up from
+    the definition of the center as attended to by others in the same
+    predicament.  However, it is not merely an associative statistical
+    correlation that enables this, but rather one that leans heavily
+    on the center as a causal model of what instruments/centers
+    support the intentional activity of better understanding this
+    material.  As Bob follows the hints of what to pay attention to,
+    tailored to his intentions that other have shared before, he
+    issues a message B@A[[:instrument
+    comprehension-success :available], [:gesture
+    clarify-material :instrument comprehension-success :realize],
+    [:instrument comprehension-success :excercise]], along with
+    thanking her for the pointer.
+
+** Conjectural and Actually Existing Narrative Practice Scaffolding
+
+   This article is a work in progress, a pre-alpha draft, like the
+   Senters project itself.  The contents of this article will be
+   subject to refinement as systems of the kind described here are
+   actually developed and tested.  At the time of this writing no
+   system has been created fulfilling the plans laid here, but the
+   exercise of laying out the design will guide the work that is to
+   come.  That work, including its situated use in real-world
+   scenarios, will serve both a practical or engineering goal of
+   creating very flexible and open-ended socially situated composition
+   of computing experiences, and a theoretical or scientific goal of
+   exploring the scaffolded mind hypothesis and scaffolded ecological
+   information.
