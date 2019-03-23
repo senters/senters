@@ -109,16 +109,16 @@
    light reflecting upon surfaces over perspectival movement at the
    relevant scale, can specify affordances.  Affordances, such as a
    walkable ground, or a climable tree, specify reliable options to be
-   realized by forms of life that are able to use them.
-   Effectivities, which are the dispositional properties of agents
-   that complement affordances, can be innately evolved to fit
-   affordances or require differentiation in the course of development
-   to realize the affordances they fit.  Ecological psychologists uses
-   the term "task" to refer to an instance of prospective
-   control-oriented behavior, which is understood to characterize the
-   teleological nature of agents' behavior in general.  When an agent
-   actively engaged in a task uses affordances to guide itself toward
-   a preferable state, it is picking up on ecological information.
+   realized by agents that are able to use them.  Effectivities, which
+   are the dispositional properties of agents that complement
+   affordances, can be innately evolved to fit affordances or require
+   differentiation in the course of development to realize the
+   affordances they fit.  Ecological psychologists uses the term
+   "task" to refer to an instance of prospective control-oriented
+   behavior, which is understood to characterize the teleological
+   nature of agents' behavior in general.  When an agent actively
+   engaged in a task uses affordances to guide itself toward a
+   preferable state, it is picking up on ecological information.
    Embodiment of ecological information is the calibration of body and
    environment in a kind of measured adjustment guided by affordance.
    To acquire the information supporting perception-action in this way
@@ -604,50 +604,24 @@
        position of capacity in which all other centers stand in
        relation to that position.
 
-    *A Stroll Through the Activities of Agents and their Principals*
+   WIP: better specify rules for what should happen, in terms of
+   end-to-end flow of principals interacting, agents proposing
+   scaffolding, etc.
 
-    To complete a minimally useful specification of the protocol, we
-    must put it in the context of use, clarifying what should happen
-    in the situations it is applied to.  Principals Alice and Bob are
-    students in a course at a university.  Bob is confused about
-    something covered in the course material.  Alice issues a message
-    to begin helping Bob, on Lx.Pk[:alice-identity-for-this-course] to
-    the attention of P[:bob].Pk[:bob-identity-for-this-course].  For
-    shorthand we will notate principal-to-principal messages such as
-    this as A@B[...] listing the events of the message within square
-    brackets, and agent-to-principal messages like a@A[...] for
-    P[:alice].Li.Pk[:alice-identity-for...].Ag[:agent-identity...].
-    For some background, people in the course have access to tools for
-    replaying course materials, and Alice sends a link to a particular
-    moment in a past lecture that has been instrumented to log events.
-    Alice issues message relaying the logged instrument event and
-    gesturing it for the engagement base of a center: A@B[[:instrument
-    event-to-look-for :available], [:gesture
-    clarify-material :instrument event-to-look-for :base engage]].
-    Bob for his part issues B@A with the same message indicating his
-    attention.  The symbol clarify-material here stands for what Bob
-    learns is a well established center that many have attended to
-    before.  Bob learns this because his PASS has done its job of
-    dispatching an agent to be scaffolded by this center, and it has
-    found within the local network accessible to Bob's identity for
-    this course, and is already sending b@B[[:gesture
-    clarify-material :instrument supporting-material :base :support],
-    [:gesture clarify-material :instrument
-    comprehension-success :base :realize]].  These are picked up from
-    the definition of the center as attended to by others in the same
-    predicament.  However, it is not merely an associative statistical
-    correlation that enables this, but rather one that leans heavily
-    on the center as a causal model of what instruments/centers
-    support the intentional activity of better understanding this
-    material.  As Bob follows the hints of what to pay attention to,
-    tailored to his intentions that other have shared before, he
-    issues a message B@A[[:instrument
-    comprehension-success :available], [:gesture
-    clarify-material :instrument comprehension-success :realize],
-    [:instrument comprehension-success :excercise]], along with
-    thanking her for the pointer.
+** Narrative Practice Scaffolding in Context
 
-** Conjectural and Actually Existing Narrative Practice Scaffolding
+   Perhaps the most important differentiating feature of NPS as an
+   approach to computing is that it proposes users should be able to
+   tell their own stories in using software.  And these stories should
+   be as or more functionally important to the operation of how
+   software mediates real-world activities than what the developers of
+   systems and instruments being leveraged had in mind.  What is more,
+   it should often be possible to conduct narrative reorganization of
+   system behavior casually and spontaneously in situ.  Shared stories
+   that shape shared attention and control of systems is the main goal
+   we have our sights on in this work.  We want to add a functionally
+   effective narrative layer to existing technology stacks, for
+   functionally tractable content curation.
 
    This article is a work in progress, a pre-alpha draft, like the
    Senters project itself.  The contents of this article will be
