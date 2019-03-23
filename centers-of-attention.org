@@ -13,7 +13,7 @@
    motivating and guiding attention, are referred to as scaffolding.
    This framework of cooperative communication has received wide
    attention as an explanation of the origin and present source of the
-   unique human niche, characterized by the ubiqitous exchange of
+   unique human niche, characterized by the ubiquitous exchange of
    shared intentional practices and narratively curated content.
 
    In light of recent developments in enactive cognitive science,
@@ -25,8 +25,8 @@
    anthropology and psychology, facilitating the engineering of
    technological extensions of agency and content-involving practices.
 
-   Ecologial information can be categorized in terms of four distinct
-   modes of meaningful world-involving encounter, consituting an
+   Ecological information can be categorized in terms of four distinct
+   modes of meaningful world-involving encounter, constituting an
    "ecological information protocol stack".
 
    1. law-based: affordances support direct perception (Gibson 1966,
@@ -68,10 +68,10 @@
    realize the objective of the iterative feedback cycle of
    cooperative attention to a center, that convention-based
    information can provide robust scaffolding.  Scaffolding can be
-   effective at supporting cultural acquisition, despite not direcly
+   effective at supporting cultural acquisition, despite not directly
    guiding action as the affordances involved in this process do.
 
-   Scaffolding of joint attention is by its very nature an artficial
+   Scaffolding of joint attention is by its very nature an artificial
    practice, and modern technology offers new prosthetic options with
    which to conduct it.  The emerging "metaverse" of software
    mediating immersive augmentation of direct and shared experiences
@@ -79,7 +79,7 @@
    attentional framework of cooperative communication.  The proposed
    architectural pattern of "narrative practice scaffolding" being
    implemented in the tentative Senters framework, seeks to increase
-   the leverage of scaffolded ecological information by augumenting
+   the leverage of scaffolded ecological information by augmenting
    gestural signaling with respect to instrumented affordance
    availability threshold events in relation to the motive factors of
    engaging, supporting, and realizing centers of attention.  As such,
@@ -108,7 +108,7 @@
    Invariant physical patterns, such as regularities in the array of
    light reflecting upon surfaces over perspectival movement at the
    relevant scale, can specify affordances.  Affordances, such as a
-   walkable ground, or a climable tree, specify reliable options to be
+   walkable ground, or a climbable tree, specify reliable options to be
    realized by agents that are able to use them.  Effectivities, which
    are the dispositional properties of agents that complement
    affordances, can be innately evolved to fit affordances or require
@@ -129,7 +129,7 @@
    information embodied in the dynamic relationship between agent
    effectivity and environmental affordance.  Ecological psychology
    continues to discover such laws, enriching the knowledge of what
-   agents actionably percieve, in terms of what lawful relationships
+   agents actionably perceive, in terms of what lawful relationships
    of ecological information they may actively embody, taking
    advantage of the niche of affordances they are situated among.
 
@@ -186,7 +186,7 @@
    it should be clarified that despite the wealth of socially-oriented
    examples, convention-based information need not be social, as
    demonstrated by examples such as a domestic cat relying (often
-   unsuccesfully) on the sound of a can-opener to pursue an
+   unsuccessfully) on the sound of a can-opener to pursue an
    opportunity for food, or a person deciding between two courses of
    action based on the outcome of a coin flip.
 
@@ -333,7 +333,7 @@
    Wittgenstein, the sort of selective openness to a relevant
    solicitation of affordances is said to be appropriate to a
    particular "form of life", defined as a relatively stable pattern
-   or norm of intentional behavior.  This in a nutshel is the high
+   or norm of intentional behavior.  This in a nutshell is the high
    level program of skilled intentionality.
 
    SIF's formulation of optimal grip as presented by its authors is
@@ -506,7 +506,7 @@
 
    To unpack what has been defined thus far,
 
-     * A system is a natural or artifical process that behaves
+     * A system is a natural or artificial process that behaves
        predictably.
      * An instrument is a program that when paired with a system
        registers threshold conditions of availability, and supports a
@@ -535,7 +535,7 @@
        are the primary target of interest because of our grounding in
        direct ecological information, there is no recommendation on
        that.  A PASS can apply to conventional desktop computing so
-       defined, though more impoverished in its involvment in
+       defined, though more impoverished in its involvement in
        ecological information sources.
 
    *Specification of Senters Protocol*
@@ -556,7 +556,7 @@
    containing as few as 1 event.  Event types include instrumented
    system events E-ins and gesture events E-ges.  Instrumented system
    events are of the form [:instrument uuid :exercise] or [:instrument
-   uuid :available] sharing that an instrument is being excercised or
+   uuid :available] sharing that an instrument is being exercised or
    available to exercise respectively (these identifiers are assumed
    to be associated with the actual instruments in their concrete
    implementations.)  Gesture events are of the form [:gesture
@@ -584,7 +584,7 @@
        cycle of intentional practice: engagement, support, and
        realization.  The pairing of instrument availability with
        motive factor is what establishes intentionality.
-     * A system event instrumented for engagment of a center indicates
+     * A system event instrumented for engagement of a center indicates
        when to engage the center.  A system event instrumented for
        support of a center indicates how to realize the center.  A
        system event instrument realization of a center indicates why
@@ -593,7 +593,7 @@
        bases of the center.  A center is thus pragmatically defined,
        from its perspective, as a scheme of leveraging all relevant
        events toward an outcome defined in terms of further
-       possbilities for action.
+       possibilities for action.
      * Centers can also be defined in terms of other centers, by using
        them as instruments.  When a center's base of engagement
        registers (because an instrumented system event does so) that
