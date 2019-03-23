@@ -32,7 +32,7 @@
    1. law-based: affordances support direct perception (Gibson 1966,
       1979).
    2. convention-based: conventionality supports selecting among
-      possbl11e affordances to attend to (Golonka 2015).
+      possible affordances to attend to (Golonka 2015).
    3. scaffolded: scaffolding of joint attention establishes
       convention-based structured composition of intentional practices
       (Tomasello 2008).
