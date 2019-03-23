@@ -356,16 +356,17 @@
    grip called Empowerment Maximization (EM) (Klyubin et al 2005) that
    like FEP is also expressed in terms of Shannon information (not to
    be confused with Gibson ecological information) and is remarkably
-   similar in other ways as well (Biehl et al 2018).  Empowerment has
-   the advantage of being control-oriented, non-representational, and
-   geared toward an understanding of embodied agents situated among
-   affordances from its initial formulation.  Empowerment is defined
-   as the channel capacity of an agent's actuation channel, and
-   formalizes the empirical observation that all agents seek to
-   maximize the variety of their potential options to affect their
-   environment.  The outcome of maximizing this utility function is
-   that agents position themselves for maximal readiness to act in a
-   wide range of eventualities without having to anticipate them.
+   similar in other ways as well (Biehl, Guckelsberger, Salge, Smith,
+   Polani 2018).  Empowerment has the advantage of being
+   control-oriented, non-representational, and geared toward an
+   understanding of embodied agents situated among affordances from
+   its initial formulation.  Empowerment is defined as the channel
+   capacity of an agent's actuation channel, and formalizes the
+   empirical observation that all agents seek to maximize the variety
+   of their potential options to affect their environment.  The
+   outcome of maximizing this utility function is that agents position
+   themselves for maximal readiness to act in a wide range of
+   eventualities without having to anticipate them.
 
    The EM account of optimal grip on a field of solicitations offers
    an enhanced perspective on mechanisms of cooperative communication.
@@ -635,3 +636,61 @@
    of computing experiences, and a theoretical or scientific goal of
    exploring the scaffolded mind hypothesis and scaffolded ecological
    information.
+
+** References
+
+   + "Philosophical Investigations" Wittgenstein 1953
+     https://static1.squarespace.com/static/54889e73e4b0a2c1f9891289/t/564b61a4e4b04eca59c4d232/1447780772744/Ludwig.Wittgenstein.-.Philosophical.Investigations.pdf
+   + "Man-Computer Symbiosis" Licklider 1960
+     http://worrydream.com/refs/Licklider%20-%20Man-Computer%20Symbiosis.pdf
+   + "Augmenting Human Intellect: A Conceptual Framework" Engelbart
+     1962 http://dougengelbart.org/content/view/138
+   + "The Senses Considered as Perceptual Systems" Gibson 1966
+     https://b-ok.cc/book/3554998/9b8962
+   + "The Ecological Approach to Visual Perception" Gibson 1979
+     http://b-ok.cc/book/864226/e0dd92
+   + "Affordances and Prospective Control: An Outline of the Ontology"
+     Turvey 1992
+     https://canvas.brown.edu/courses/755816/files/20990546/download?wrap=1
+   + "Social cognition, joint attention, and communicative competence
+     from 9 to 15 months of age."  Carpenter, Nagell, Tomasello 1998
+     http://booksc.xyz/book/15451904/9e3c39
+   + "An Ecological Approach to Perceptual Learning and Development"
+     Gibson & Pick 2000 https://b-ok.cc/book/879525/7d1f69
+   + "Origins of Human Communication" Tomasello 2008
+     http://b-ok.cc/book/541274/39859f
+   + "Empowerment: A Universal Agent-Centric Measure of Control"
+     Klyubin, Polani, Nehaniv 2005
+     https://www.researchgate.net/publication/4201381_Empowerment_A_Universal_Agent-Centric_Measure_of_Control
+   + "A free energy principle for the brain" Friston, Kilner, Harrison
+     2006
+     https://www.fil.ion.ucl.ac.uk/~karl/A%20free%20energy%20principle%20for%20the%20brain.pdf
+   + "On Intelligence From First Principles: Guidelines for Inquiry
+     Into the Hypothesis of Physical Intelligence (PI)" Turvey &
+     Carello 2012 https://booksc.xyz/book/42939095/6bac90
+   + "Radicalizing Enactivism" Hutto & Myin 2013
+     http://b-ok.cc/book/2554656/1b7ea8
+   + "A Rich Landscape of Affordances" Rietveld & Kiverstein 2014
+     https://www.tandfonline.com/doi/full/10.1080/10407413.2014.958035?scroll=top&needAccess=true
+   + "Self-organization, free energy minimization, and optimal grip on
+     a field of affordances" Bruineberg & Rietveld 2014
+     https://www.frontiersin.org/articles/10.3389/fnhum.2014.00599/full
+   + "Laws and Conventions in Language-Related Behaviors" Golonka 2015
+     http://booksc.xyz/book/50082310/1e8631
+   + "Strange Tools: Art and Human Nature" Noë 2015
+     http://b-ok.cc/book/2640649/b1b44d
+   + "Cultural Affordances: Scaffolding Local Worlds Through Shared
+     Intentionality and Regimes of Attention" Ramstead, Veissière,
+     Kirmayer 2016
+     https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960915/
+   + "Evolving Enactivism" Hutto & Myin 2017
+     http://b-ok.cc/book/2947353/09d772
+   + "Free energy, empowerment, and predictive information compared"
+     Biehl, Guckelsberger, Salge, Smith, Polani 2018
+     https://www.mis.mpg.de/fileadmin/pdf/abstract_gso18_3300.pdf
+   + "Getting into predictive processing’s great guessing game:
+     Bootstrap heaven or hell?" Hutto 2018
+     https://philpapers.org/rec/HUTGIP
+   + "Steps to an Ecology of Bicycles for the Mind: A Situated
+     Programming Manifesto" Levy 2018
+     http://senters.info/situated-programming
