@@ -422,6 +422,14 @@
 
 ** Narrative Practice Scaffolding as a Paradigm of Situated Computing
 
+   We propose Senters as specific implementation of what we see as a
+   more generic architectural pattern for augmenting the human joint
+   attentional framework of cooperative communication, which we call
+   "narrative practice scaffolding" (NPS).  As the name implies, it
+   targets the full ecological information protocol stack, from
+   narratively curating content down to instrumenting directly engaged
+   affordances.
+
    Perhaps the most important differentiating feature of NPS as an
    approach to computing is that it proposes users should be able to
    tell their own stories in using software.  And these stories should
