@@ -49,18 +49,11 @@
    affordances" so-called (Ramstead, Veissiere, Kirmayer 2016).  What
    we can take from the SIF work is an appreciation of the importance
    of "solicitations" or task-relevant engagement with a selected
-   ensemble of affordances.  However, some modifications are in order.
-   The predictive approach entailed by Friston's "free energy
-   principle" is untenably representational at base (Hutto 2018) and
-   incompatible with the cybernetic or control-oriented ontology of
-   ecological psychology (Turvey 1992, Turvey & Carello 2012) and as
-   such we contend Empowerment Maximization (Klyubin, Polani, Nehaniv
-   2005), is a more apt account of how agents embody an optimal grip
-   on a field of affordances.  Further, their extended definitions of
-   affordance confuse and conflate distinct modes of information.  As
-   a matter of empirically-motivated definition (in that affordances
-   must support direct perception), "affordance" implies strictly the
-   law-based mode of ecological information that underpins convention
+   ensemble of affordances.  However, a modifications is needed, as
+   their extended definitions of affordance confuse and conflate the
+   aforementioned distinct modes of information: in order to explain
+   direct perception, "affordance" implies strictly the law-based mode
+   of ecological information that underpins the convention-based mode
    (Golonka 2015).  Ramstead et al's claim of regimes of shared
    attention and shared intentionality however is appropriate and we
    develop a narrower definition of "centers of attention" recognizing
@@ -108,9 +101,9 @@
    Invariant physical patterns, such as regularities in the array of
    light reflecting upon surfaces over perspectival movement at the
    relevant scale, can specify affordances.  Affordances, such as a
-   walkable ground, or a climbable tree, specify reliable options to be
-   realized by agents that are able to use them.  Effectivities, which
-   are the dispositional properties of agents that complement
+   walkable ground, or a climbable tree, specify reliable options to
+   be realized by agents that are able to use them.  Effectivities,
+   which are the dispositional properties of agents that complement
    affordances, can be innately evolved to fit affordances or require
    differentiation in the course of development to realize the
    affordances they fit.  Ecological psychologists uses the term
@@ -122,16 +115,7 @@
    Embodiment of ecological information is the calibration of body and
    environment in a kind of measured adjustment guided by affordance.
    To acquire the information supporting perception-action in this way
-   is to measure affordances by the effectivities that fit them.  The
-   progress of ecological psychology as a science can be measured by
-   its success at discovering ecological laws, which are typically
-   expressed as differential equations describing the ecological
-   information embodied in the dynamic relationship between agent
-   effectivity and environmental affordance.  Ecological psychology
-   continues to discover such laws, enriching the knowledge of what
-   agents actionably perceive, in terms of what lawful relationships
-   of ecological information they may actively embody, taking
-   advantage of the niche of affordances they are situated among.
+   is to measure affordances by the effectivities that fit them.
 
 ** Convention-based Ecological Information
 
@@ -175,20 +159,20 @@
    be a social affordance supporting an ecological law relationship
    between honeybees and food sources, but is recognized instead as
    convention-based natural social information because the conditions
-   it is sensitive to may blink in and out of existence.  The innate
-   and uniquely human pointing gesture in contrast is a natural social
-   affordance because it always follows the direction of the pointing
-   (as socially signaled gaze direction) linearly to an immediate
-   target.  For comparison, the human deictic convention of composing
-   phrases such as "the room we are in" is conventional, because it
-   can't be used to continuously guide action as a mathematically
-   expressible ecological law the way that pointing can.  And finally,
-   it should be clarified that despite the wealth of socially-oriented
-   examples, convention-based information need not be social, as
-   demonstrated by examples such as a domestic cat relying (often
-   unsuccessfully) on the sound of a can-opener to pursue an
-   opportunity for food, or a person deciding between two courses of
-   action based on the outcome of a coin flip.
+   it is sensitive to may blink in and out of existence.  Human
+   gaze-following in contrast is a natural social affordance, because
+   gaze is used in cooperative communication, and it always follows
+   linearly to the immediate location of its target.  For comparison,
+   the human deictic convention of composing phrases such as "the room
+   we are in" is conventional, because it can't be used to
+   continuously guide action as a mathematically expressible
+   ecological law the way that gaze can.  And finally, it should be
+   clarified that despite the wealth of socially-oriented examples,
+   convention-based information need not be social, as demonstrated by
+   examples such as a domestic cat relying (often unsuccessfully) on
+   the sound of a can-opener to pursue an opportunity for food, or a
+   person deciding between two courses of action based on the outcome
+   of a coin flip.
 
 ** Scaffolding Ecological Information for Cooperative Communication
 
@@ -336,40 +320,8 @@
    or norm of intentional behavior.  This in a nutshell is the high
    level program of skilled intentionality.
 
-   SIF's formulation of optimal grip as presented by its authors is
-   believed to be realized by means of Karl Friston's Free Energy
-   Principle (FEP) (Friston, Kilner, Harrison 2006), a theory that
-   agents seek to minimize variational free energy, and consequently
-   end up forming models of the world and adjusting them to minimize
-   surprise in predicting the world.  While Rietveld et al make an
-   effort to give this information-theoretic framework a more radical
-   enactive makeover, it is problematic for two interrelated reasons:
-   it is a prediction theory, and it is a content-involving theory.
-   The basic ontology of the ecological approach is one of control, so
-   our candidate for a theory of optimal grip should be control-based.
-   Furthermore, there are strong reasons to be skeptical about even
-   the possibility of importing representation and content into basic
-   agency and direct perception-action (Hutto & Myin 2013, Hutto
-   2018).
-
-   Fortuitously, there is a competing mathematical account of optimal
-   grip called Empowerment Maximization (EM) (Klyubin et al 2005) that
-   like FEP is also expressed in terms of Shannon information (not to
-   be confused with Gibson ecological information) and is remarkably
-   similar in other ways as well (Biehl, Guckelsberger, Salge, Smith,
-   Polani 2018).  Empowerment has the advantage of being
-   control-oriented, non-representational, and geared toward an
-   understanding of embodied agents situated among affordances from
-   its initial formulation.  Empowerment is defined as the channel
-   capacity of an agent's actuation channel, and formalizes the
-   empirical observation that all agents seek to maximize the variety
-   of their potential options to affect their environment.  The
-   outcome of maximizing this utility function is that agents position
-   themselves for maximal readiness to act in a wide range of
-   eventualities without having to anticipate them.
-
-   The EM account of optimal grip on a field of solicitations offers
-   an enhanced perspective on mechanisms of cooperative communication.
+   The account of optimal grip on a field of solicitations offers an
+   enhanced perspective on mechanisms of cooperative communication.
    Given that agents are seeking to position themselves for maximal
    leverage, this baseline attentional tendency can assist prosocial
    behaviors, because it allows agents that are engaged in following
@@ -436,180 +388,39 @@
    soliciting relevant arrays of events in contexts of intentional
    practice.  So we must incorporate some form of agent-like control
    into the organization of a personal event log for it to be a PASS.
-   The means by which we propose to do so is by deploying artificial
-   agents in our personal systems that learn to share, follow into,
-   and direct our attention in keeping with our intentions.  Finally,
-   in order to provide artificial agents with the information required
-   to work within scopes of intention, we need a way to express such
-   scopes, and that is precisely the scaffolded ecological information
-   framework developed above.  What is needed therefore is a schematic
-   standard by which to socially share and negotiate attention. So a
-   PASS requires a protocol for coordination of centers of attention
-   between participants.  In summary, a PASS requires:
+   The means by which we propose to do so is by deploying attendants
+   (artificial agents) in our personal systems that learn to share,
+   follow into, and direct our attention in keeping with our
+   intentions.  Finally, in order to provide attendants with the
+   information required to work within scopes of intention, we need a
+   way to express such scopes, and that is precisely the scaffolded
+   ecological information framework developed above.  What is needed
+   therefore is a schematic standard by which to socially share and
+   negotiate attention. So a PASS requires a protocol for coordination
+   of centers of attention between participants.  In summary, a PASS
+   requires:
 
    1. A means of instrumenting and tracking personally and socially
       relevant events.
-   2. Agents that leverage event data and centers of attention that
-      organize it, to augment personal attentional reorganization.
+   2. Attendants that leverage event data and centers of attention
+      that organize it, to augment personal attentional
+      reorganization.
    3. A protocol defining an event-sourced schematic standard for
       collaboratively scaffolding centers of attention.
 
-   The protocol is the decisive component of this framework, because
-   it must specify a vocabulary of conventions for signaling attention
-   and its motivation.  These conventions must track scaffolded
-   ecological information explicitly, both as casually reorganized in
-   spontaneous situated engagement, and as meticulously reorganized in
-   choreography or architecture.  Scaffolded ecological information so
-   produced by socially situated use of the protocol in turn provides
-   agents with the context of shared intentional practices to augment.
+   Of these three components, the protocol requires the most
+   additional definition here.  The protocol provides a standard way
+   of sharing gestures of engagement, support, and realization that
+   event-source the scaffolding of centers.  These gestures associate
+   instruments that signal threshold conditions (and may have effects)
+   with the gestured phase of attending to a center.  This provides
+   attendant processes with the structured task-relevant information
+   needed to present relevant guidance to human users and narratively
+   organize software experiences.  For the detailed technical
+   specification of the senters protocol and PASS framework, see
+   https://github.com/senters/senters/blob/master/senters-technical-spec.org.
 
-** Senters: A Protocol for Joint Attention and Narrative Practice Scaffolding
-
-   We propose Senters as a specific implementation of what we see as a
-   more generic architectural pattern for augmenting the human joint
-   attentional framework of cooperative communication, which we call
-   "narrative practice scaffolding" (NPS).  As the name implies, it
-   targets the full ecological information protocol stack, from
-   narratively curating content down to instrumenting directly engaged
-   affordances.
-
-   *Specification of PASS*
-
-   Specifying the senters protocol first requires specifying a PASS.
-   Assume at minimum two principal users P1 & P2 (P[]) situated within
-   a direct environment E.  Principals have private event log stream
-   processing systems P[].Li, and share messages over a p2p event log
-   stream processing system Lx supporting both public and encrypted
-   messages appended to logs and identified by public key identities
-   Lx.Pk[0..n], the same Pk identities used in Li as P[].Li.Pk[0..n].
-   Each principal (with no data shared between public key identities)
-   maintains a pool of agent processes P[].Pk[].Ag[0..n] that have
-   read access to events for P[].Pk[].  Environment E is constituted
-   by shared systems E.S[0..n] and personal systems P[].S[0..n].
-   Systems are engaged by way of instruments S[].I[0..n] which signal
-   I[].available event and respond to an I[].exercise event when
-   I[].available is true and submitter P[] is authorized, mechanically
-   engaging the instrumented affordance.  Principals communicate on
-   their feeds in messages Lx.Pk[].M[] to the attention of other
-   principals Lx.Pk[] as supported by the p2p event log protocol.
-   These messages suggest attentional scaffolding, which may be
-   accepted by the receiving principal by publishing it on Lx.Pk[].
-   Agents P[].Pk[].Ag[] read messages from feeds P[].Li.Pk[] and
-   Lx.Pk[] which list events related by the protocol defined below.
-   Agents suggest attentional scaffolding by sending messages to the
-   attention of P[].Li.Pk[].  Principals may accept these messages by
-   publishing them on Lx.Pk[].  An agent is a generic process in
-   search of scaffolding in support of the actively scaffolded center
-   of attention of its principal, optimizing for an optimal grip in
-   terms of effective options.  The space explored by agents is
-   defined in the specification of the protocol below.
-
-   To unpack what has been defined thus far,
-
-     * A system is a natural or artificial process that behaves
-       predictably.
-     * An instrument is a program that when paired with a system
-       registers threshold conditions of availability, and supports a
-       singular act of effect upon the system.  Instruments are
-       expected to be used by means of events on the PASS's internal
-       event stream.  Availability for action is the only feedback
-       offered by instruments, but instrumenting of systems can
-       involve a number of instruments, by which the availability of
-       one instrument serves as feedback of the effect of a prior
-       instrument, with respect to the system they pertain to.
-     * Agents are generic and adopt the stance of whatever center of
-       attention they are scaffolded by.  Agents do not themselves
-       exercise the effects of instruments or the centers they are
-       instrumented within, but rather only present them to their
-       principals who engage or dismiss them.
-     * PASS-augmented principals share messages with other
-       PASS-augmented peers. When principals settle on adopting the
-       same scaffolding, they share a message to indicate it, or
-       alternatively send a message indicating some alternate
-       intention.
-     * A PASS is here specified generically, so no recommendations
-       have been made on certain aspects that are very important to
-       their actual design and implementation, such as the UX of
-       visual, haptic, acoustic etc elements that are instrumented.
-       Further, while augmented reality and social immersion generally
-       are the primary target of interest because of our grounding in
-       direct ecological information, there is no recommendation on
-       that.  A PASS can apply to conventional desktop computing so
-       defined, though more impoverished in its involvement in
-       ecological information sources.
-
-   *Specification of Senters Protocol*
-
-   Because the PASS specification above omits the protocol that is
-   central to its operation, it leaves some important questions
-   unanswered.  What are the messages that principals and agents read
-   and write, and how do these messages express the scaffolding of
-   centers of attention?  Further, how are these messages related to
-   instrumented system events, such that scaffolding of attention has
-   bearing on the coordination of action in the shared situation of
-   principals?  These problems are what a protocol for collaboratively
-   scaffolding centers of attention addresses.
-
-   Messages shared by principals to the attention of other principals
-   Lx.Pk[].M[], and by agents to the attention of their principals
-   P[].Li.Pk[].Ag[].M[] consist of collections of events *.M[].E[>0],
-   containing as few as 1 event.  Event types include instrumented
-   system events E-ins and gesture events E-ges.  Instrumented system
-   events are of the form [:instrument uuid :exercise] or [:instrument
-   uuid :available] sharing that an instrument is being exercised or
-   available to exercise respectively (these identifiers are assumed
-   to be associated with the actual instruments in their concrete
-   implementations.)  Gesture events are of the form [:gesture
-   center-uuid :instrument instrument-uuid :base base] where base is
-   of the form :engage, :support, or :realize.  Centers are sourced
-   from gesture events that share reference to the same center-uuid,
-   and are fully defined by the accreted collection of gestures.
-   Centers can also be treated as instruments by issuing instrument
-   events of the form [:instrument center-uuid :exercise] or
-   [:instrument center-uuid :available], and referring to center-uuid
-   in the instrument slot of gesture events.  Centers register as
-   available when one or more instruments in their availability base
-   register as available.  Centers are being exercised when actively
-   engaged as iterative feedback toward realization conditions.
-
-   To expand on this,
-
-     * Instruments and their systems exist independently of the
-       protocol, but "instrumenting" is performed in the context of
-       center by means of gesture.  This is to say that instrumenting
-       is not neutral but done with indication of intention, as
-       supplied by gesture.  The term gesture is used in a technically
-       specific sense here as indicating an instrument's availability
-       as bearing on one of the three motive factors in the feedback
-       cycle of intentional practice: engagement, support, and
-       realization.  The pairing of instrument availability with
-       motive factor is what establishes intentionality.
-     * A system event instrumented for engagement of a center indicates
-       when to engage the center.  A system event instrumented for
-       support of a center indicates how to realize the center.  A
-       system event instrument realization of a center indicates why
-       to realize the center.  The collections of such system events
-       instrumented by motive factors constitute the respective three
-       bases of the center.  A center is thus pragmatically defined,
-       from its perspective, as a scheme of leveraging all relevant
-       events toward an outcome defined in terms of further
-       possibilities for action.
-     * Centers can also be defined in terms of other centers, by using
-       them as instruments.  When a center's base of engagement
-       registers (because an instrumented system event does so) that
-       center is available to engage. Likewise when center's base of
-       realization is in effect it itself is in effect.  As such, a
-       center is pragmatically defined a scheme of leveraging all
-       relevant centers toward the conditions constituted by the
-       center's realization base.  Every center is thus a kind of
-       position of capacity in which all other centers stand in
-       relation to that position.
-
-   WIP: better specify rules for what should happen, in terms of
-   end-to-end flow of principals interacting, agents proposing
-   scaffolding, etc.
-
-** Narrative Practice Scaffolding in Context
+** Narrative Practice Scaffolding as a Paradigm of Situated Computing
 
    Perhaps the most important differentiating feature of NPS as an
    approach to computing is that it proposes users should be able to
@@ -624,18 +435,17 @@
    effective narrative layer to existing technology stacks, for
    functionally tractable content curation.
 
-   This article is a work in progress, a pre-alpha draft, like the
-   Senters project itself.  The contents of this article will be
-   subject to refinement as systems of the kind described here are
-   actually developed and tested.  At the time of this writing no
-   system has been created fulfilling the plans laid here, but the
-   exercise of laying out the design will guide the work that is to
-   come.  That work, including its situated use in real-world
-   scenarios, will serve both a practical or engineering goal of
-   creating very flexible and open-ended socially situated composition
-   of computing experiences, and a theoretical or scientific goal of
-   exploring the scaffolded mind hypothesis and scaffolded ecological
-   information.
+   This article is a work in progress, like the Senters project
+   itself.  The contents of this article will be subject to refinement
+   as systems of the kind described here are actually developed and
+   tested.  At the time of this writing no system has been created
+   fulfilling the plans laid here, but the exercise of laying out the
+   design will guide the work that is to come.  That work, including
+   its situated use in real-world scenarios, will serve both a
+   practical or engineering goal of creating very flexible and
+   open-ended socially situated composition of computing experiences,
+   and a theoretical or scientific goal of exploring the scaffolded
+   mind hypothesis and scaffolded ecological information.
 
 ** References
 

@@ -1,0 +1,26 @@
+* Senters
+
+  This repository contains the theoretical and technical documentation
+  of the senters project.
+
+** Theoretical Framework
+
+   Senters is developed with a theoretical framework that construes
+   human social cognition and communication as an ongoing activity of
+   cooperatively scaffolding attention.  This framework, which is
+   builds upon the state of the art in ecologically situated cogntive
+   science, serves as the motivation for the technical design of
+   senters.
+
+   https://github.com/senters/senters/blob/master/centers-of-attention.org
+
+** Technical Framework
+
+   Senters is a work in progress.  At present much of the active work
+   of fleshing out details is happening in
+   https://github.com/senters/wtd, which can be viewed as a primitive
+   antecedent of the future senters framework.  This document is an
+   attempt to specify in as much detail as possible the technical
+   framework.
+
+   https://github.com/senters/senters/blob/master/senters-technical-spec.org
