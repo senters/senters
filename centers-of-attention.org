@@ -16,10 +16,10 @@
    unique human niche, characterized by the ubiquitous exchange of
    shared intentional practices and narratively curated content.
 
-   In light of recent developments in enactive cognitive science,
-   joint attention-based cooperative communication fits naturally into
-   an account of ecological information, also known as Gibson
-   information, a theory of information as specification by fit
+   In light of recent developments in ecological-enactive cognitive
+   science, joint attention-based cooperative communication fits
+   naturally into an account of ecological information, also known as
+   Gibson information, a theory of information as specification by fit
    between organism and environment.  Specifying the human attentional
    and cultural niche in this way promises to revolutionize
    anthropology and psychology, facilitating the engineering of
@@ -29,17 +29,19 @@
    modes of meaningful world-involving encounter, constituting an
    "ecological information protocol stack".
 
-   1. law-based: affordances support direct perception (Gibson 1966,
-      1979).
+   1. law-based: affordances support direct perception (Gibson 1979,
+      Turvey & Shaw 1992).
    2. convention-based: conventionality supports selecting among
-      possible affordances to attend to (Golonka 2015).
+      possible affordances to attend to (Golonka 2015, Golonka &
+      Wilson 2019).
    3. scaffolded: scaffolding of joint attention establishes
       convention-based structured composition of intentional practices
-      (Tomasello 2008).
+      (Tomasello 2008) by convention-based mechanisms of semiotic
+      self-control coordinating joint agency (Stjernfelt 2011 & 2014).
    4. curated: public symbol systems in the socially shared
       environment enable content-involving sense-making by socially
       establishing standards for evaluating scaffolded practices
-      (Wittgenstein 1953, Hutto & Myin 2013, 2017).
+      (Wittgenstein 1953, Hutto & Myin 2013 & 2017).
 
    Situated within the broader effort to leverage the ecological
    approach as a unified theory of intelligent agency, the Skilled
@@ -50,7 +52,7 @@
    we can take from the SIF work is an appreciation of the importance
    of "solicitations" or task-relevant engagement with a selected
    ensemble of affordances.  However, a modifications is needed, as
-   their extended definitions of affordance confuse and conflate the
+   their extended definitions of affordance muddle or conflate the
    aforementioned distinct modes of information: in order to explain
    direct perception, "affordance" implies strictly the law-based mode
    of ecological information that underpins the convention-based mode

@@ -1,8 +1,9 @@
 * Senters Protocol and Framework: Technical Specification
 
-  Senters is a project to implement a new approach to situated social
-  computing, called "narrative practice scaffolding" (NPS) that has
-  been developed from a theoretical cognitive science perspective in
+  Senters is a project to implement a new approach to socially
+  situated computing, called "narrative practice scaffolding" (NPS)
+  that has been developed from a theoretical cognitive science
+  perspective in
   https://github.com/senters/senters/blob/master/centers-of-attention.org.
   This document focuses on technical design and implementation,
   whereas the theory document explores the motivations for these
@@ -24,12 +25,12 @@
      software behaviors.
 
    * *overcome intractable knowledge representation problems* by
-     establishing expressive machine-followable signals at the root of
+     establishing expressive machine-followable calls at the root of
      knowledge activities: joint attentional transaction.
 
-** The Senters Computation Model
+** The Senters Computing Model
 
-   Senters is an agent-centric computation model, meaning software
+   Senters is an agent-centric model of computing, meaning software
    agents-- not fixed programs-- make decisions.  These software
    agents are called "attendants" because their power is confined to
    guiding the attention of human participants in intentionally
@@ -53,9 +54,9 @@
 
      1. *instruments* are interfaces for measuring and changing the
         controllable/perceivable environment.  Instruments provide
-        queries and actions. Queries act as threshold functions on
+        queries and steps. Queries act as threshold functions on
         some tracked aspect of the environment that is instrumented.
-        Queries produce events relevant to centers.  Actions are also
+        Queries produce events relevant to centers.  Steps are also
         logged events, and are typically performed for effects and/or
         for use by queries.
      2. *centers* are developed by users through gestures, and
@@ -163,6 +164,39 @@
    work.  "Protocol" will refer strictly to the specification of
    senters transactions and any constraints or rules governing their
    exchange.
+
+*** Protocol
+
+    A senters transaction is a message committed to a feed. It can be
+    accessed by participants who follow its author, and by their PASS
+    instance.  A transaction can be issued to the attention of a
+    fellow participant.  An individual transaction contains a sequence
+    of one or more protocol-defined calls in the form of an array of
+    key-value maps.  Every one of these maps has a timestamp and a
+    unique id.  A committed transaction or individual items in its
+    array of calls can be referred back to by unique id, or by an
+    alias to it.  Transactions are the means of creating atomic
+    referrable events.
+
+    The following calls are avaiable to use:
+
+    - *instrument*
+      - *engine* =[existing engine]=
+      - *step* =[new name]= & =[new parameters]=
+      - *sign*  =[new name]= & =[string parsed by engine]=
+
+    - *instrument* =[existing instrument]=
+
+    - *act* =[existing instrument]=.=[existing step of instrument]= =[existing parameters of step]=
+
+    - *scaffold* =[center]=
+      - *engage*   =[when   |when not   ]= =[instrument.sign or center]=
+      - *support*  =[by     |by not     ]= =[instrument.sign or center]=
+      - *realize*  =[because|because not]= =[instrument.sign or center]=
+
+    - *attend* =[center]=
+
+    - *alias* =[existing transaction or call]=
 
 *** Personal Attention Scaffolding System (PASS) Framework
 
@@ -284,7 +318,7 @@
      The function of attendants is to read the topology of centers as
      sourced from the journal by the controller, and guide attention
      using the controller.  What makes different attendant designs
-     different from one another is their algorithm strategies for
+     different from one another is their algorithmic strategies for
      making decisions given the same data.
 
      Attendants are assigned to a particular center of attention.
@@ -293,7 +327,17 @@
      its focal center) relative to that point.
 
      Each attendant has access to a limited share of time (attention)
-     as a scare resource.
+     as a scare resource.  Attendants can be ranked by the participant
+     they attend for, and the attendants ranked highest get the
+     largest share of attention.  Attendants can be increased and
+     decreased in rank, paused and started.  They can also be archived
+     and unarchived to allow for housekeeping of outdated attendants.
+
+     To assign an attendant is to be engaged over time with a center
+     of attention.  This allows for the distinction to be made between
+     actual presence on one hand, and commitment of attention over
+     time on the other.  The allocation and ranking of attendants can
+     be shared with others as well.
 
 **** Instruments
 
@@ -327,8 +371,10 @@
      experience of the environment (everything else in the framework
      is about scaffolding attention).
 
-*** Protocol
-
-    
-
 ** Appendix: INQL
+
+   Instruments are implemented concretely as programs called engines.
+   But engines can also support creating novel instances or
+   configurations of the instrument in protocol transactions.  INQL is
+   provided as an example of how instrument engines can enable
+   flexible creation of novel instruments on the fly.
