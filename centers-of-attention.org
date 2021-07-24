@@ -1,5 +1,7 @@
 * Centers of Attention: a Scaffolded Ecological Information Framework
 
+  by Robert P. Levy
+
 ** Introduction
 
    Research on joint attention in primates and human infants has
@@ -58,9 +60,18 @@
    three basic motive factors of availability to engage, support, and
    realize the objective of the iterative feedback cycle of
    cooperative attention to a center, that convention-based
-   information can provide robust scaffolding.  Scaffolding can be
-   effective at supporting cultural acquisition, despite not directly
-   guiding action as the affordances involved in this process do.
+   information can provide robust scaffolding.  We propose and will
+   show that these three motive factors (which are targeted by the
+   distinctive joint attentional skills of sharing, following into,
+   and directing respectively) constitute a powerful and unique kind
+   of joint attention for the reason that they enable agents to
+   coordinate and externally shape Peircean triadic symbols
+   (teleological mechanisms) for self-control on the part of the
+   participants. This mode of scaffolded joint attending, which
+   enables flexible and open ended development of joint agency,
+   differs markedly from animal social coordination on signals that
+   are limited to use by individual agent teleological mechanisms,
+   rather than specifying whole agential modes.
 
    Scaffolding of joint attention is by its very nature an artificial
    practice, and modern technology offers new prosthetic options with
@@ -104,16 +115,16 @@
    which are the dispositional properties of agents that complement
    affordances, can be innately evolved to fit affordances or require
    differentiation in the course of development to realize the
-   affordances they fit.  Ecological psychologists uses the term
-   "task" to refer to an instance of prospective control-oriented
-   behavior, which is understood to characterize the teleological
-   nature of agents' behavior in general.  When an agent actively
-   engaged in a task uses affordances to guide itself toward a
-   preferable state, it is picking up on ecological information.
-   Embodiment of ecological information is the calibration of body and
-   environment in a kind of measured adjustment guided by affordance.
-   To acquire the information supporting perception-action in this way
-   is to measure affordances by the effectivities that fit them.
+   affordances they fit.  In ecological psychology the term "task"
+   refers to instances of prospective control-oriented behavior, which
+   is understood to characterize the teleological nature of agents'
+   behavior in general.  When an agent actively engaged in a task uses
+   affordances to guide itself toward a preferable state, it is
+   picking up on ecological information.  Embodiment of ecological
+   information is the calibration of body and environment in a kind of
+   measured adjustment guided by affordance.  To acquire the
+   information supporting perception-action in this way is to measure
+   affordances by the effectivities that fit them.
 
 ** Convention-based Ecological Information
 
@@ -141,17 +152,17 @@
    selecting some other (eg. controlling one's vehicle in relation to
    the expected behavior of other cars.)
 
-   As Golonka explores in detail, the convention-based/law-based
-   distinction does not map cleanly to distinctions such as natural
-   versus human-made or social versus nonsocial.  The most widely
-   popularized examples of law-based information tend to be natural,
-   non-social examples (such as the affordances of climbable trees to
-   animals that can climb them), but this is mainly for pedagogical
-   reasons due to their relative simplicity.  There are human-made,
-   non-social affordances such as steps, ramps, doorways, walkways,
-   and shelters, and natural social affordances such as infant crying
-   and facial expressions, and pointing gestures, which we will
-   explore in more detail.  Most social information is however
+   As Golonka's examples illustrate, the convention-based/law-based
+   distinction is a cross-cutting one, orthogonal to distinctions such
+   as natural versus human-made or social versus nonsocial.  The most
+   widely popularized examples of law-based information tend to be
+   natural, non-social examples (such as the affordances of climbable
+   trees to animals that can climb them), but this is mainly for
+   pedagogical reasons due to their relative simplicity.  There are
+   human-made, non-social affordances such as steps, ramps, doorways,
+   walkways, and shelters, and natural social affordances such as
+   infant crying and facial expressions, and pointing gestures, which
+   we will explore in more detail.  Most social information is however
    convention-based, both among humans and animal species.  Golonka
    gives the example of the honeybee waggle dance, which might seem to
    be a social affordance supporting an ecological law relationship
@@ -223,6 +234,35 @@
    specific kind of convention-based information that joint attention
    produces "scaffolded ecological information" because it aptly
    suggests the cooperative context is what makes it useful.
+
+** Scaffolding as Coordinated Semiotic Self-control
+
+   The congruence of the natural ecological ontology of direct task
+   perception/performance with Tomasello's findings on joint attention
+   perhaps suffices on its own to explain the unique efficacy of human
+   joint attention, however a complementary and further clarifying
+   account comes from Charles S. Peirce's semiotics as elucidated by
+   Frederik Stjernfelt (Stjernfelt 2012, 2014).  In the field of
+   biosemiotics, Peirce's triadic theory of symbol has been
+   demonstrating a great deal of utility in making sense of how
+   convention-based functions in forming telelogical control
+   (cybernetic) mechanisms in the constitution of biological systems.
+   The core idea from Peirce relevant here is that symbol is a mode of
+   control whereby a sign vehicle is used to arive at a target, but by
+   means of an "interpretant" or supporting set of dyadic/indexical
+   (or additionaly triadic/symbolic) mechanisms, such that the symbol
+   as a whole realizes a generalization or compression in relating
+   interpretant mechanism to targeted end. From a biosemiotic
+   perspective we can view the Gibsonian perception-action feedback
+   cycle as nested within largely innate constitutive system-internal
+   endosemiotic mechanisms of end-directed semiotic control that
+   regulate homeostatic and allostatic reference conditions to produce
+   adaptively favorable outcomes for organisms.  Further, biosemiotics
+   helps make sense of animal communication signal systems, whereby
+   there is often complex convention-based agent coordination.
+
+   Biosemiotics is relevant to understanding the mechanism of human
+   joint attention because
 
 ** Curating Scaffolded Ecological Information as Content
 
@@ -484,8 +524,12 @@
    + "On Intelligence From First Principles: Guidelines for Inquiry
      Into the Hypothesis of Physical Intelligence (PI)" Turvey &
      Carello 2012 https://booksc.xyz/book/42939095/6bac90
+   + "The Evolution of Semiotic Self-Control" Frederik Stjernfelt 2012
+     https://www.researchgate.net/profile/Frederik-Stjernfelt-2
    + "Radicalizing Enactivism" Hutto & Myin 2013
      http://b-ok.cc/book/2554656/1b7ea8
+   + "Natural Propositions" Frederik Stjernfelt 2014
+     https://books.google.com/books/about/Natural_Propositions.html?id=X37ioQEACAAJ
    + "A Rich Landscape of Affordances" Rietveld & Kiverstein 2014
      https://www.tandfonline.com/doi/full/10.1080/10407413.2014.958035?scroll=top&needAccess=true
    + "Self-organization, free energy minimization, and optimal grip on
@@ -501,6 +545,9 @@
      https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960915/
    + "Evolving Enactivism" Hutto & Myin 2017
      http://b-ok.cc/book/2947353/09d772
+   + "Attentional actions – an ecological-enactive account of
+     utterances of concrete words" Jasper C. Van Den Herik 2018
+     https://sciendo.com/article/10.2478/plc-2018-0005
    + "Free energy, empowerment, and predictive information compared"
      Biehl, Guckelsberger, Salge, Smith, Polani 2018
      https://www.mis.mpg.de/fileadmin/pdf/abstract_gso18_3300.pdf
@@ -510,3 +557,7 @@
    + "Steps to an Ecology of Bicycles for the Mind: A Situated
      Programming Manifesto" Levy 2018
      http://senters.info/situated-programming
+   + "Joint Attention for Multi-Agent Coordination and Social
+     Learning" Dennis Lee, Natasha Jaques, Chase Kew, Douglas Eck,
+     Dale Schuurmans, Aleksandra Faust 2021
+     https://arxiv.org/abs/2104.07750?context=cs.MA
