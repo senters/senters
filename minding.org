@@ -1,0 +1,82 @@
+* Minding an Ecology of Steps: Computing with Social Context
+
+  [ DRAFT - WORK IN PROGRESS ]
+
+  by Robert P. Levy
+
+  #+BEGIN_QUOTE
+  "[F]requency of validation of an idea within a given segment of time
+  is not the same as proof that the idea is either true or
+  pragmatically useful over long time.  We are discovering today that
+  several of the premises which are deeply ingrained in our way of
+  life are simply untrue and become pathogenic when implemented with
+  modern technology." -- Gregory Bateson, "Steps to an Ecology of
+  Mind"
+  #+END_QUOTE
+
+  #+BEGIN_QUOTE
+  "People need new tools to work with rather than tools that “work”
+  for them.  They need technology to make the most of the energy and
+  imagination each has, rather than more well-programmed energy
+  slaves." -- Ivan Illich, "Tools for Conviviality"
+  #+END_QUOTE
+
+** Introduction
+
+   This essay is an attempt to present a welcoming and accessible
+   introduction to the philosophy and vision of the senters project.
+   The title is both a nod to Bateson and to my earlier nod to him in
+   the title of my first, very rough articulation of the senters
+   project, [[https://raw.githubusercontent.com/rplevy/situated-programming/master/assets/steps.pdf]["Steps to an Ecology of Bicycles for the Mind: a Situated
+   Programming Manifesto"]].  As the title might seem to suggest, this
+   is an updated presentation of the project at a similarly high level
+   as that first essay, with the added perspective of having made a
+   certain amount of progress on the project since then.  More
+   specifically however, the title foregrounds the notion of "steps",
+   which play a central role in the story I will tell here.  So I
+   begin by talking about steps.  This discussion will lead to what is
+   meant by "centers of attention".  First we will go over the basics
+   of attending, what it means to attend to something.  Then we will
+   will get into the unique properties of human joint attention.  This
+   will involve a gentle overview of the main gists of Michael
+   Tomasello's thesis on cooperative communication and Charles
+   S. Peirce's theory of symbol and semiotic self-control, in order to
+   describe what a center of attention is, and how it is something we
+   are all very familiar with since our very first experiences with
+   joint attention from infancy. This is where we can start to talk
+   about scaffolding, which is about the use of tools (including signs
+   and graphical practices) to center our attending to practice.
+   Scaffolding has been a ubiquitous part of human experience as long
+   as we've been human, even before we were homo sapiens.  We will
+   present the senters vision for the future of scaffolding, and how
+   it differs in character from the ways technology is involved in
+   present-day human culture. While we don't yet know what we'll learn
+   in a fully realized attention-flow computing ecosystem of the kind
+   the senters project is proposing, this essay will attempt to paint
+   a picture of the likely experience and impact of intelligently
+   augmented sensemaking.
+
+** What are Steps?
+
+   Of the Oxford English Dictionary's definitions of "step", the
+   following are the most relevant to the way we will be using the
+   term.
+
+   #+BEGIN_QUOTE
+   "a measure or action, especially one of a series taken in order to
+   deal with or achieve a particular thing."
+
+   [example] "a major step forward in the fight for justice"
+   #+END_QUOTE
+
+   #+BEGIN_QUOTE
+   "a stage in a gradual process."
+
+   [example] "sales are up, which is a step in the right direction"
+   #+END_QUOTE
+
+   #+BEGIN_QUOTE
+   "a particular position or grade on an ascending or hierarchical scale."
+
+   [example] "the first step on the managerial ladder"
+   #+END_QUOTE

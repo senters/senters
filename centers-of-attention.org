@@ -20,14 +20,10 @@
    science, joint attention-based cooperative communication fits
    naturally into an account of ecological information, also known as
    Gibson information, a theory of information as specification by fit
-   between organism and environment.  Specifying the human attentional
-   and cultural niche in this way promises to revolutionize
-   anthropology and psychology, facilitating the engineering of
-   technological extensions of agency and content-involving practices.
-
-   Ecological information can be categorized in terms of four distinct
-   modes of meaningful world-involving encounter, constituting an
-   "ecological information protocol stack".
+   between organism and environment.  Ecological information can be
+   categorized in terms of four distinct modes of meaningful
+   world-involving encounter, constituting an "ecological information
+   protocol stack".
 
    1. law-based: affordances support direct perception (Gibson 1979,
       Turvey & Shaw 1992).
@@ -51,7 +47,7 @@
    affordances" so-called (Ramstead, Veissiere, Kirmayer 2016).  What
    we can take from the SIF work is an appreciation of the importance
    of "solicitations" or task-relevant engagement with a selected
-   ensemble of affordances.  However, a modifications is needed, as
+   ensemble of affordances.  However, a modification is needed, as
    their extended definitions of affordance muddle or conflate the
    aforementioned distinct modes of information: in order to explain
    direct perception, "affordance" implies strictly the law-based mode
