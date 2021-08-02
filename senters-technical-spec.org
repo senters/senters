@@ -1,380 +1,398 @@
 * Senters Protocol and Framework: Technical Specification
 
-  Senters is a project to implement a new approach to socially
-  situated computing, called "narrative practice scaffolding" (NPS)
-  that has been developed from a theoretical cognitive science
-  perspective in
+  [WORK IN PROGRESS]
+
+  Senters is a project to develop a framework for attention-flow
+  computing.  Attention-flow computing is an attempt to integrate
+  computing systems more deeply into human sensemaking activities, in
+  order to enable computing systems to augment and amplify these
+  activities. The approach developed here is based on the theoretical
+  cognitive science orientation argued for in
   https://github.com/senters/senters/blob/master/centers-of-attention.org.
-  This document focuses on technical design and implementation,
-  whereas the theory document explores the motivations for these
-  decisions and for the project itself.
+  In that paper we mostly build on the work of others, and introduce a
+  novel theoretical claim that follows from this work.  In that paper
+  some proposals for constructive validation of the hypothesis are
+  laid out.  The senters project is an effort to do exactly that.  The
+  thesis is that human joint attention is able to solve the hard
+  problem because it registers an observable and tractable basis for
+  coordinating semiotic self-control-- the contexts of engaging,
+  supporting, and realizing, which through an iterative process I
+  refer to as "coordinated focus compression" (CoFoCo), creates
+  effective and powerful shared symbols. This is a testable claim, and
+  to test it we are developing senters.  Here we develop an
+  engineering-oriented corollary of the thesis to bridge over into
+  computing, that artificial agents trained on the data of joint
+  attention as traced in accord with this model, can meaningfully
+  support and extend these human practices.  This document outines how
+  we intend to develop a framework for augmenting joint attention,
+  which we will detail the technical design and implementation of.
 
-** Objectives of Senters Project
+# ** The Central Thesis of Senters
 
-   * *establish a standard for sharing attention* in immersive,
-     situated computing.
+   
 
-   * *strengthen attentional sovereignty.* Individuals controlling
-     what they attend to, as the basis of cooperative attention
-     sharing.
+# ** Objectives of Senters Project
 
-   * *maintain a strong separation of concerns between mechanical
-     effects and intentional practices.* A consequence of this is that
-     participants have a great deal of expressive power to
-     functionally organize narrative practices governing concrete
-     software behaviors.
+#    * *establish a standard for augmented attention* in immersive,
+#      situated computing.
 
-   * *overcome intractable knowledge representation problems* by
-     establishing expressive machine-followable calls at the root of
-     knowledge activities: joint attentional transaction.
+#    * *amplify social and individual intelligence* by more deeply
+#      integrating such tools into our activities of meaningfully
+#      organizing and reorganizing our attention to what matters.
 
-** The Senters Computing Model
+#    * *overcome intractable knowledge representation problems* solve
+#      the hard problem of content in computing the same way the
+#      evolution of humans solved it for animals, by making involvement
+#      in other agents' attending the basis of coordinated self-control.
 
-   Senters is an agent-centric model of computing, meaning software
-   agents-- not fixed programs-- make decisions.  These software
-   agents are called "attendants" because their power is confined to
-   guiding the attention of human participants in intentionally
-   programmed ways.  Human participants casually inform one another
-   and attendants of their presence and what motivates presence, and
-   in turn are provided with relevant guidance for possible action.
 
-   In traditional computing, a program is a deterministically executed
-   set of instructions.  Senters does not replace that, but adds a
-   layer of organization above it.  This layer, the scaffolding layer,
-   does not determine the actions of attendants but offers attendants
-   and in turn the human participants they assist, possibilities to
-   explore.  In so doing, this layer of functional organization gives
-   participants the control to personally and socially shape software
-   behaviors in highly expressive ways.  This approach to autonomous
-   participants flexibly and casually developing common attentional
-   scaffolding, instead of using fully pre-made applications together,
-   is what is termed *narrative practice scaffolding*.
+# ** The Senters Computing Model
 
-   Senters has an event-driven architecture with two layers:
+#    Senters is an agent-centric model of computing, meaning software
+#    agents-- not fixed programs-- make decisions.  These software
+#    agents are called "attendants" because their power is confined to
+#    guiding the attention of human participants in intentionally
+#    programmed ways.  Human participants casually inform one another
+#    and attendants of their presence and what motivates presence, and
+#    in turn are provided with relevant guidance for possible action.
 
-     1. *instruments* are interfaces for measuring and changing the
-        controllable/perceivable environment.  Instruments provide
-        queries and steps. Queries act as threshold functions on
-        some tracked aspect of the environment that is instrumented.
-        Queries produce events relevant to centers.  Steps are also
-        logged events, and are typically performed for effects and/or
-        for use by queries.
-     2. *centers* are developed by users through gestures, and
-        scaffold attention of participants. They specify feedback
-        loops with entry, support, and realization conditions using
-        instruments and other centers.
+#    In traditional computing, a program is a deterministically executed
+#    set of instructions.  Senters does not replace that, but adds a
+#    layer of organization above it.  This layer, the scaffolding layer,
+#    does not determine the actions of attendants but offers attendants
+#    and in turn the human participants they assist, possibilities to
+#    explore.  In so doing, this layer of functional organization gives
+#    participants the control to personally and socially shape software
+#    behaviors in highly expressive ways.  This approach to autonomous
+#    participants flexibly and casually developing common attentional
+#    scaffolding, instead of using fully pre-made applications together,
+#    is what is termed *narrative practice scaffolding*.
 
-   To elaborate on how centers scaffold attentional feedback loops,
-   there are two sides to this: a human attention model and a
-   computing model.
+#    Senters has an event-driven architecture with two layers:
 
-     * Human attention: ecological psychology research supports a
-       task-centric ontology of prospective control involving
-       conditions of task opportunity, subtasks in support of them,
-       and realization of task objectives.  When we talk about
-       attention we are really referring to a participant engaging in
-       a task of control toward realizing an outcome.  Further, work
-       done by Tomasello, Nagell, and Capenter has found three
-       distinct skills of joint attention: sharing, following into,
-       and directing the shared task at hand.  What this suggests is
-       that a center of attention can be specified in terms of entry
-       conditions, supporting conditions, and exit conditions.
+#      1. *instruments* are interfaces for measuring and changing the
+#         controllable/perceivable environment.  Instruments provide
+#         queries and steps. Queries act as threshold functions on
+#         some tracked aspect of the environment that is instrumented.
+#         Queries produce events relevant to centers.  Steps are also
+#         logged events, and are typically performed for effects and/or
+#         for use by queries.
+#      2. *centers* are developed by users through gestures, and
+#         scaffold attention of participants. They specify feedback
+#         loops with entry, support, and realization conditions using
+#         instruments and other centers.
 
-     * Computing: the attentional model above directly inspires a
-       computing model.  A center of attention is constituted as a
-       collection of couplings between instrumented events and the
-       three phases of task attention:
+#    To elaborate on how centers scaffold attentional feedback loops,
+#    there are two sides to this: a human attention model and a
+#    computing model.
 
-         - events bearing upon entry into the center
-         - events bearing upon attending to other tasks in support of
-           realizing this
-         - events bearing upon exit from it
+#      * Human attention: ecological psychology research supports a
+#        task-centric ontology of prospective control involving
+#        conditions of task opportunity, subtasks in support of them,
+#        and realization of task objectives.  When we talk about
+#        attention we are really referring to a participant engaging in
+#        a task of control toward realizing an outcome.  Further, work
+#        done by Tomasello, Nagell, and Capenter has found three
+#        distinct skills of joint attention: sharing, following into,
+#        and directing the shared task at hand.  What this suggests is
+#        that a center of attention can be specified in terms of entry
+#        conditions, supporting conditions, and exit conditions.
 
-       An attendant evaluates centers based on what its particpant is
-       actively attending to, and what centers the participant engages
-       in ongoing cycles of attending to, in order to discover optimal
-       paths in the topology of centers, and priorities for what to
-       attend to.  For example if a participant is not actively
-       engaging a center, but it is instrumented such that present
-       conditions signal value of attending to it, then the attendant
-       might invite its participant to do so.  The full enumeration of
-       cases is as follows:
+#      * Computing: the attentional model above directly inspires a
+#        computing model.  A center of attention is constituted as a
+#        collection of couplings between instrumented events and the
+#        three phases of task attention:
 
-       1. *When not presently engaging this center*: attendant either
-          recommends engaging or not, given the events instrumenting
-          viable entry, and the history of exit from this center to
-          other centers, given whatever preferences the attendant may
-          have for further outcomes that might follow from this
-          center, ideally following the intentions of its participant.
-       2. *When presently actively engaging this center*: attendant
-          either recommends engaging instruments and centers as
-          supporting of this not, based on their presently produced
-          events and the history of their being assigned credit for
-          the present center's realization.
-       3. *When not actively engaging but this center but ongoing*:
-          attendant either recommends exit or continue, given the
-          events instrumenting exit. Events instrumenting exit for
-          this center often instrument entry for other centers that
-          can be exited to.
+#          - events bearing upon entry into the center
+#          - events bearing upon attending to other tasks in support of
+#            realizing this
+#          - events bearing upon exit from it
 
-       A participant (as distinct from attendant) goes through a
-       similar process, with the help of attendants.  Participants
-       identify and name centers for reference prior to gesturing
-       events instrumenting them.  They then perform gestures that
-       associate instrumented events as motivating attentional
-       decisions for each of the loop phases:
+#        An attendant evaluates centers based on what its particpant is
+#        actively attending to, and what centers the participant engages
+#        in ongoing cycles of attending to, in order to discover optimal
+#        paths in the topology of centers, and priorities for what to
+#        attend to.  For example if a participant is not actively
+#        engaging a center, but it is instrumented such that present
+#        conditions signal value of attending to it, then the attendant
+#        might invite its participant to do so.  The full enumeration of
+#        cases is as follows:
 
-       1. *When considering engaging this center*: participant either
-          gestures instrumented events and gestures as motivating
-          engagement or not, given the recommendations of its
-          attendants, or of other participants, as motivated by likely
-          outcomes, and overall judgement of the participant.
-       2. *When presently actively engaging this center*: participant
-          either gestures instrumented events and gestures as
-          motivating engaging supporting centers or not, given the
-          recommendations of its attendants, or of other participants,
-          as motivated by likely outcomes, and overall judgement of
-          the participant.
-       3. *When evaluating continued engagement in this center*:
-          participant either gestures gestures instrumented events and
-          gestures as motivating exit or continue, given the
-          recommendations of its attendants, or of other participants,
-          as motivated by likely outcomes, and overall judgement of
-          the participant.
+#        1. *When not presently engaging this center*: attendant either
+#           recommends engaging or not, given the events instrumenting
+#           viable entry, and the history of exit from this center to
+#           other centers, given whatever preferences the attendant may
+#           have for further outcomes that might follow from this
+#           center, ideally following the intentions of its participant.
+#        2. *When presently actively engaging this center*: attendant
+#           either recommends engaging instruments and centers as
+#           supporting of this not, based on their presently produced
+#           events and the history of their being assigned credit for
+#           the present center's realization.
+#        3. *When not actively engaging but this center but ongoing*:
+#           attendant either recommends exit or continue, given the
+#           events instrumenting exit. Events instrumenting exit for
+#           this center often instrument entry for other centers that
+#           can be exited to.
 
-       A history of gestural events motivating attentional decisions
-       w/rt centers wholly defines centers as information for
-       scaffolding attention (centers are "event-sourced" from
-       gestures).
+#        A participant (as distinct from attendant) goes through a
+#        similar process, with the help of attendants.  Participants
+#        identify and name centers for reference prior to gesturing
+#        events instrumenting them.  They then perform gestures that
+#        associate instrumented events as motivating attentional
+#        decisions for each of the loop phases:
 
-   This scheme of attention-based scaffolding might appear complex at
-   first but is simple in practice.  Participants identify centers of
-   attention and elaborate them over time with gestures indicating
-   which instrumented events motivate engagement, support, and
-   realization/exit.  Both socially and personally this is process of
-   working out what scaffolding of attention works best.  Attendants
-   in turn follow the information provided by participants through
-   gesture and pursue adaptive strategies on their own, reporting
-   their findings to guide attention helpfully.
+#        1. *When considering engaging this center*: participant either
+#           gestures instrumented events and gestures as motivating
+#           engagement or not, given the recommendations of its
+#           attendants, or of other participants, as motivated by likely
+#           outcomes, and overall judgement of the participant.
+#        2. *When presently actively engaging this center*: participant
+#           either gestures instrumented events and gestures as
+#           motivating engaging supporting centers or not, given the
+#           recommendations of its attendants, or of other participants,
+#           as motivated by likely outcomes, and overall judgement of
+#           the participant.
+#        3. *When evaluating continued engagement in this center*:
+#           participant either gestures gestures instrumented events and
+#           gestures as motivating exit or continue, given the
+#           recommendations of its attendants, or of other participants,
+#           as motivated by likely outcomes, and overall judgement of
+#           the participant.
 
-** Specification of Senters PASS Framework and Protocol
+#        A history of gestural events motivating attentional decisions
+#        w/rt centers wholly defines centers as information for
+#        scaffolding attention (centers are "event-sourced" from
+#        gestures).
 
-   "Framework" or "PASS" will here refer to the system taken as whole
-   including the components required in for the protocol to do useful
-   work.  "Protocol" will refer strictly to the specification of
-   senters transactions and any constraints or rules governing their
-   exchange.
+#    This scheme of attention-based scaffolding might appear complex at
+#    first but is simple in practice.  Participants identify centers of
+#    attention and elaborate them over time with gestures indicating
+#    which instrumented events motivate engagement, support, and
+#    realization/exit.  Both socially and personally this is process of
+#    working out what scaffolding of attention works best.  Attendants
+#    in turn follow the information provided by participants through
+#    gesture and pursue adaptive strategies on their own, reporting
+#    their findings to guide attention helpfully.
 
-*** Protocol
+# ** Specification of Senters PASS Framework and Protocol
 
-    A senters transaction is a message committed to a feed. It can be
-    accessed by participants who follow its author, and by their PASS
-    instance.  A transaction can be issued to the attention of a
-    fellow participant.  An individual transaction contains a sequence
-    of one or more protocol-defined calls in the form of an array of
-    key-value maps.  Every one of these maps has a timestamp and a
-    unique id.  A committed transaction or individual items in its
-    array of calls can be referred back to by unique id, or by an
-    alias to it.  Transactions are the means of creating atomic
-    referrable events.
+#    "Framework" or "PASS" will here refer to the system taken as whole
+#    including the components required in for the protocol to do useful
+#    work.  "Protocol" will refer strictly to the specification of
+#    senters transactions and any constraints or rules governing their
+#    exchange.
 
-    The following calls are avaiable to use:
+# *** Protocol
 
-    - *instrument*
-      - *engine* =[existing engine]=
-      - *step* =[new name]= & =[new parameters]=
-      - *sign*  =[new name]= & =[string parsed by engine]=
+#     A senters transaction is a message committed to a feed. It can be
+#     accessed by participants who follow its author, and by their PASS
+#     instance.  A transaction can be issued to the attention of a
+#     fellow participant.  An individual transaction contains a sequence
+#     of one or more protocol-defined calls in the form of an array of
+#     key-value maps.  Every one of these maps has a timestamp and a
+#     unique id.  A committed transaction or individual items in its
+#     array of calls can be referred back to by unique id, or by an
+#     alias to it.  Transactions are the means of creating atomic
+#     referrable events.
 
-    - *instrument* =[existing instrument]=
+#     The following calls are avaiable to use:
 
-    - *act* =[existing instrument]=.=[existing step of instrument]= =[existing parameters of step]=
+#     - *instrument*
+#       - *engine* =[existing engine]=
+#       - *step* =[new name]= & =[new parameters]=
+#       - *sign*  =[new name]= & =[string parsed by engine]=
 
-    - *scaffold* =[center]=
-      - *engage*   =[when   |when not   ]= =[instrument.sign or center]=
-      - *support*  =[by     |by not     ]= =[instrument.sign or center]=
-      - *realize*  =[because|because not]= =[instrument.sign or center]=
+#     - *instrument* =[existing instrument]=
 
-    - *attend* =[center]=
+#     - *act* =[existing instrument]=.=[existing step of instrument]= =[existing parameters of step]=
 
-    - *alias* =[existing transaction or call]=
+#     - *scaffold* =[center]=
+#       - *engage*   =[when   |when not   ]= =[instrument.sign or center]=
+#       - *support*  =[by     |by not     ]= =[instrument.sign or center]=
+#       - *realize*  =[because|because not]= =[instrument.sign or center]=
 
-*** Personal Attention Scaffolding System (PASS) Framework
+#     - *attend* =[center]=
 
-    A PASS broadly speaking is a system that allows participants to
-    commit senters transactions and to share them with other
-    participants on append-only immutable feeds, allowing attendants
-    to follow and support the event-sourcing of centers of attention
-    that leverage instrumenting of systems they organize control of.
+#     - *alias* =[existing transaction or call]=
 
-    Possible PASS implementations can range from the fully immersive
-    augmenting of personal and socially shared perceptual experience
-    to text-based systems that track and augment attention textually.
-    The differences between these potential PASS platforms are
-    reflected in different attendants and instruments that will be
-    compatible with some platforms and not others.
+# *** Personal Attention Scaffolding System (PASS) Framework
 
-    The design of a PASS however is especially well-suited to the
-    prospect of immersive social computing, which presents the unique
-    challenge of how best to share augmentation of the immediate
-    environment at hand.  The problem domain here involves 1. how to
-    optimize personal allocation of attention, as registered in
-    engagement with centers of attention, and 2. how to coordinate
-    attention to shared centers.  The solution domain involves 1. a
-    means of casually but expressively specifying scaffolding of
-    attention 2. a means of automatically following the specified
-    scaffolding so that attention can be approriately guided in an
-    intention-relevant way.
+#     A PASS broadly speaking is a system that allows participants to
+#     commit senters transactions and to share them with other
+#     participants on append-only immutable feeds, allowing attendants
+#     to follow and support the event-sourcing of centers of attention
+#     that leverage instrumenting of systems they organize control of.
 
-    The ideal flow of PASS-augmented human awarenesss is of a fluency
-    between gestural expression on one hand to guiding of attention on
-    the other, such that individual participants are in control of
-    what possibilities appear at their fingertips, with a degree of
-    cooperatively sourced sophistication and computationally powered
-    scope of detection that is not possible unaided.
+#     Possible PASS implementations can range from the fully immersive
+#     augmenting of personal and socially shared perceptual experience
+#     to text-based systems that track and augment attention textually.
+#     The differences between these potential PASS platforms are
+#     reflected in different attendants and instruments that will be
+#     compatible with some platforms and not others.
 
-    Practical requirements for a PASS include:
+#     The design of a PASS however is especially well-suited to the
+#     prospect of immersive social computing, which presents the unique
+#     challenge of how best to share augmentation of the immediate
+#     environment at hand.  The problem domain here involves 1. how to
+#     optimize personal allocation of attention, as registered in
+#     engagement with centers of attention, and 2. how to coordinate
+#     attention to shared centers.  The solution domain involves 1. a
+#     means of casually but expressively specifying scaffolding of
+#     attention 2. a means of automatically following the specified
+#     scaffolding so that attention can be approriately guided in an
+#     intention-relevant way.
 
-    * The ability to instrument and (automically or manually) record
-      and track personally and socially relevant events to a
-      consolidated log of events.
-    * The ability to commit attentional transactions (using the
-      senters protocol) to private and shared distributed log feeds.
-    * The availability of attendants (artificial agents) that leverage
-      information sourced from attentional transaction logs, to
-      augment personal attentional reorganization.
-    * The ability to create and move between personally controlled
-      identities with ease.
+#     The ideal flow of PASS-augmented human awarenesss is of a fluency
+#     between gestural expression on one hand to guiding of attention on
+#     the other, such that individual participants are in control of
+#     what possibilities appear at their fingertips, with a degree of
+#     cooperatively sourced sophistication and computationally powered
+#     scope of detection that is not possible unaided.
 
-    The framework components include controller, skin, attendants,
-    instruments, journal, and protocol.
+#     Practical requirements for a PASS include:
 
-**** Journal
+#     * The ability to instrument and (automically or manually) record
+#       and track personally and socially relevant events to a
+#       consolidated log of events.
+#     * The ability to commit attentional transactions (using the
+#       senters protocol) to private and shared distributed log feeds.
+#     * The availability of attendants (artificial agents) that leverage
+#       information sourced from attentional transaction logs, to
+#       augment personal attentional reorganization.
+#     * The ability to create and move between personally controlled
+#       identities with ease.
 
-     The PASS framework has an event-driven or "kappa" architecture.
-     The events are senters protocol transactions containing sequences
-     of events detailed in the protocol spec below.  There are two
-     main targets for senters transactions: 1. personal transactions
-     that need not be broadcast anywhere, and 2. shared transactions
-     that in some cases are for specific participants and should only
-     be known to them, in some cases are for specific participants and
-     can be seen by everyone, and in some cases are public and to
-     noone in particular.  All of the use cases of the latter are
-     covered by Secure Scuttlebutt protocol.  The former case can be
-     covered by a private stream processing system such as
-     redis-streams or using postgres perhaps.
+#     The framework components include controller, skin, attendants,
+#     instruments, journal, and protocol.
 
-**** Controller and Skin
+# **** Journal
 
-     The *controller* is the core of the framework that provides
-     functionality to use the protocol by committing messages to the
-     journal.  The controller is used by attendants to participants
-     (for example suggesting scaffolding to the participant) and by
-     participants (for example gesturing to other participants).
+#      The PASS framework has an event-driven or "kappa" architecture.
+#      The events are senters protocol transactions containing sequences
+#      of events detailed in the protocol spec below.  There are two
+#      main targets for senters transactions: 1. personal transactions
+#      that need not be broadcast anywhere, and 2. shared transactions
+#      that in some cases are for specific participants and should only
+#      be known to them, in some cases are for specific participants and
+#      can be seen by everyone, and in some cases are public and to
+#      noone in particular.  All of the use cases of the latter are
+#      covered by Secure Scuttlebutt protocol.  The former case can be
+#      covered by a private stream processing system such as
+#      redis-streams or using postgres perhaps.
 
-     The *skin* provides a user interaction layer over the controller,
-     to establish a consistent semiotics and UX over the controller
-     functions.
+# **** Controller and Skin
 
-     The controller implements the following functionality, each of
-     which is interfaced with via skin-level features.
+#      The *controller* is the core of the framework that provides
+#      functionality to use the protocol by committing messages to the
+#      journal.  The controller is used by attendants to participants
+#      (for example suggesting scaffolding to the participant) and by
+#      participants (for example gesturing to other participants).
 
-     + means to announce/invite presence in a center to others
-       - issuing senters protocol message to indicate presence
-       - receiving event of participant's presence
-     + means of participant gesturing scaffolding of center with
-       others
-       - issuing senters protocol message to gesture to a participant
-       - receiving event of another participant gesturing
-     + means of attendant gesturing scaffolding of center to the
-       participant
-       - access for attendant to topology of centers
-       - means of attendant gesturing to participant
-       - participant recieving attendant's gesture
-     + means to identify and refer to centers of attention
-       - centers of attention are scaffolded through exchanges of
-         gestures.  There has to be some way of identifying them,
-         whether by labelling and indexing them explicitly, o
-     + defining and installing instruments
-     + defining, installing, and assigning/dispatching attendants
-     + processing the journal into a topology of centers
-     + distributing share of time (share of attention) allotted among
-       attendants
+#      The *skin* provides a user interaction layer over the controller,
+#      to establish a consistent semiotics and UX over the controller
+#      functions.
 
-**** Attendants
+#      The controller implements the following functionality, each of
+#      which is interfaced with via skin-level features.
 
-     Attendants are software agents that run privately within a
-     participant's PASS instance.  An attendant is not to be confused
-     with an automated participant.  There is a good use case for
-     public-addressing identities as in the case of a project or brand
-     curating a computing experience.  Attendant instances on the
-     other hand are always local to an individual participant's PASS
-     instance and do not broadcast out, just guide that individual.
-     This is because attendants need to be able to as closely and
-     intimately as possible fit an individual without the
-     near-impossible and certainly taxing effort to selectively
-     preserve privacy. The best solution is to keep attendant
-     instances entirely private and localized to the person.
+#      + means to announce/invite presence in a center to others
+#        - issuing senters protocol message to indicate presence
+#        - receiving event of participant's presence
+#      + means of participant gesturing scaffolding of center with
+#        others
+#        - issuing senters protocol message to gesture to a participant
+#        - receiving event of another participant gesturing
+#      + means of attendant gesturing scaffolding of center to the
+#        participant
+#        - access for attendant to topology of centers
+#        - means of attendant gesturing to participant
+#        - participant recieving attendant's gesture
+#      + means to identify and refer to centers of attention
+#        - centers of attention are scaffolded through exchanges of
+#          gestures.  There has to be some way of identifying them,
+#          whether by labelling and indexing them explicitly, o
+#      + defining and installing instruments
+#      + defining, installing, and assigning/dispatching attendants
+#      + processing the journal into a topology of centers
+#      + distributing share of time (share of attention) allotted among
+#        attendants
 
-     The function of attendants is to read the topology of centers as
-     sourced from the journal by the controller, and guide attention
-     using the controller.  What makes different attendant designs
-     different from one another is their algorithmic strategies for
-     making decisions given the same data.
+# **** Attendants
 
-     Attendants are assigned to a particular center of attention.
-     This makes that center of attention a focal point by which the
-     attendant can evaluate and recommend attention (not limited to
-     its focal center) relative to that point.
+#      Attendants are software agents that run privately within a
+#      participant's PASS instance.  An attendant is not to be confused
+#      with an automated participant.  There is a good use case for
+#      public-addressing identities as in the case of a project or brand
+#      curating a computing experience.  Attendant instances on the
+#      other hand are always local to an individual participant's PASS
+#      instance and do not broadcast out, just guide that individual.
+#      This is because attendants need to be able to as closely and
+#      intimately as possible fit an individual without the
+#      near-impossible and certainly taxing effort to selectively
+#      preserve privacy. The best solution is to keep attendant
+#      instances entirely private and localized to the person.
 
-     Each attendant has access to a limited share of time (attention)
-     as a scare resource.  Attendants can be ranked by the participant
-     they attend for, and the attendants ranked highest get the
-     largest share of attention.  Attendants can be increased and
-     decreased in rank, paused and started.  They can also be archived
-     and unarchived to allow for housekeeping of outdated attendants.
+#      The function of attendants is to read the topology of centers as
+#      sourced from the journal by the controller, and guide attention
+#      using the controller.  What makes different attendant designs
+#      different from one another is their algorithmic strategies for
+#      making decisions given the same data.
 
-     To assign an attendant is to be engaged over time with a center
-     of attention.  This allows for the distinction to be made between
-     actual presence on one hand, and commitment of attention over
-     time on the other.  The allocation and ranking of attendants can
-     be shared with others as well.
+#      Attendants are assigned to a particular center of attention.
+#      This makes that center of attention a focal point by which the
+#      attendant can evaluate and recommend attention (not limited to
+#      its focal center) relative to that point.
 
-**** Instruments
+#      Each attendant has access to a limited share of time (attention)
+#      as a scare resource.  Attendants can be ranked by the participant
+#      they attend for, and the attendants ranked highest get the
+#      largest share of attention.  Attendants can be increased and
+#      decreased in rank, paused and started.  They can also be archived
+#      and unarchived to allow for housekeeping of outdated attendants.
 
-     Instruments, like attendants are software modules that may read
-     the journal of transactions and the topology of centers they
-     source.  Instruments are also the means of committing
-     transactions to the journal.  Every instrument implements the
-     same interface:
+#      To assign an attendant is to be engaged over time with a center
+#      of attention.  This allows for the distinction to be made between
+#      actual presence on one hand, and commitment of attention over
+#      time on the other.  The allocation and ranking of attendants can
+#      be shared with others as well.
 
-     + it can implement *queries* which take no arguments and respond
-       with a go or no-go signal based on events in the journal (such
-       as acts) or external factors of any kind.  Queries can be
-       understood as threshold functions.
+# **** Instruments
 
-     + it can implement *acts* which may accept arguments as committed
-       to the journal. Acts may be used by the instrument as command
-       to have an effect, or it can be simply comitted for use by
-       queries.
+#      Instruments, like attendants are software modules that may read
+#      the journal of transactions and the topology of centers they
+#      source.  Instruments are also the means of committing
+#      transactions to the journal.  Every instrument implements the
+#      same interface:
 
-     Instrument engines are software modules for defining instruments
-     in the transaction log by passing arguments. An example is INQL,
-     a simple query language documented in the appendix of this spec.
-     Once an instrument is defined this way it is just like any other
-     instrument: at call time its behavior is fixed not parameterized.
+#      + it can implement *signs* which are queries that take no
+#        arguments and respond with a go or no-go signal based on events
+#        in the journal (such as acts) or external factors of any kind.
+#        Queries can be understood as threshold functions.
 
-     So far we have given only the data-level description of
-     instruments.  There is also a UI aspect to instruments, which is
-     partly owned by the framework skin layer, but beyond that is
-     open-ended because instruments are the means of actually doing
-     things that literally or virtually augment the environment or the
-     experience of the environment (everything else in the framework
-     is about scaffolding attention).
+#      + it can implement *steps* which are actions that may accept
+#        arguments as committed to the journal. Acts may be used by the
+#        instrument as command to have an effect, or it can be simply
+#        comitted for use by queries.
 
-** Appendix: INQL
+#      Instrument engines are software modules for defining instruments
+#      in the transaction log by passing arguments. An example is INQL,
+#      a simple query language documented in the appendix of this spec.
+#      Once an instrument is defined this way it is just like any other
+#      instrument: at call time its behavior is fixed not parameterized.
 
-   Instruments are implemented concretely as programs called engines.
-   But engines can also support creating novel instances or
-   configurations of the instrument in protocol transactions.  INQL is
-   provided as an example of how instrument engines can enable
-   flexible creation of novel instruments on the fly.
+#      So far we have given only the data-level description of
+#      instruments.  There is also a UI aspect to instruments, which is
+#      partly owned by the framework skin layer, but beyond that is
+#      open-ended because instruments are the means of actually doing
+#      things that literally or virtually augment the environment or the
+#      experience of the environment (everything else in the framework
+#      is about scaffolding attention).
+
+# ** Appendix: INQL
+
+#    Instruments are implemented concretely as programs called engines.
+#    But engines can also support creating novel instances or
+#    configurations of the instrument in protocol transactions.  INQL is
+#    provided as an example of how instrument engines can enable
+#    flexible creation of novel instruments on the fly.
