@@ -64,6 +64,13 @@
        to understanding teleological mechanisms in the "wet
        cybernetics" of life.
 
+       The value of semiotics is to produce, given the resources of
+       "convention-based use of ecological information" alone, an
+       account of prospective control tasks as semiosis, and then
+       given the additional resources of joint attentional skills, an
+       account of content as coordinated scaffolded abstraction of
+       intentional practices.
+
      - **Peircean Biosemiotics needs a Gibsonian foundation**. It
        tries to build up from sensations, which doesn't work.  this is
        borderline mysticism (in some of the same ways enactivism is as
@@ -343,18 +350,22 @@
      http://worrydream.com/refs/Licklider%20-%20Man-Computer%20Symbiosis.pdf
    + "Augmenting Human Intellect: A Conceptual Framework" Engelbart
      1962 http://dougengelbart.org/content/view/138
-   + "The Senses Considered as Perceptual Systems" Gibson 1966
+   + "Perception of Another Person's Looking Behavior" J. J. Gibson &
+     Pick 1963 https://www.jstor.org/stable/1419779
+   + "The Senses Considered as Perceptual Systems" J. J. Gibson 1966
      https://b-ok.cc/book/3554998/9b8962
-   + "The Ecological Approach to Visual Perception" Gibson 1979
+   + "Attention: the Perceiver as Performer" E. J. Gibson & Rader 1979
+     https://www.researchgate.net/publication/291344991_Attention_The_Perceiver_as_Performer
+   + "The Ecological Approach to Visual Perception" J. J. Gibson 1979
      http://b-ok.cc/book/864226/e0dd92
    + "Affordances and Prospective Control: An Outline of the Ontology"
      Turvey 1992
      https://canvas.brown.edu/courses/755816/files/20990546/download?wrap=1
    + "Social cognition, joint attention, and communicative competence
      from 9 to 15 months of age."  Carpenter, Nagell, Tomasello 1998
-     http://booksc.xyz/book/15451904/9e3c39
+     https://www.jstor.org/stable/1166214
    + "An Ecological Approach to Perceptual Learning and Development"
-     Gibson & Pick 2000 https://b-ok.cc/book/879525/7d1f69
+     E. J. Gibson & Pick 2000 https://b-ok.cc/book/879525/7d1f69
    + "Origins of Human Communication" Tomasello 2008
      http://b-ok.cc/book/541274/39859f
    + "Empowerment: A Universal Agent-Centric Measure of Control"
@@ -378,7 +389,7 @@
      a field of affordances" Bruineberg & Rietveld 2014
      https://www.frontiersin.org/articles/10.3389/fnhum.2014.00599/full
    + "Laws and Conventions in Language-Related Behaviors" Golonka 2015
-     http://booksc.xyz/book/50082310/1e8631
+     https://www.tandfonline.com/doi/abs/10.1080/10407413.2015.1068654
    + "Strange Tools: Art and Human Nature" Noë 2015
      http://b-ok.cc/book/2640649/b1b44d
    + "Cultural Affordances: Scaffolding Local Worlds Through Shared

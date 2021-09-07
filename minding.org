@@ -1,11 +1,11 @@
-* Minding an Ecology of Steps: Computing with Social Context
+* Minding an Ecology of Steps: Toward a Practice of Attention-Flow Computing
 
   [ DRAFT - WORK IN PROGRESS ]
 
   by Robert P. Levy
 
   #+BEGIN_QUOTE
-  "[F]requency of validation of an idea within a given segment of time
+  "Frequency of validation of an idea within a given segment of time
   is not the same as proof that the idea is either true or
   pragmatically useful over long time.  We are discovering today that
   several of the premises which are deeply ingrained in our way of
@@ -23,60 +23,271 @@
 
 ** Introduction
 
-   This essay is an attempt to present a welcoming and accessible
-   introduction to the philosophy and vision of the senters project.
-   The title is both a nod to Bateson and to my earlier nod to him in
-   the title of my first, very rough articulation of the senters
-   project, [[https://raw.githubusercontent.com/rplevy/situated-programming/master/assets/steps.pdf]["Steps to an Ecology of Bicycles for the Mind: a Situated
-   Programming Manifesto"]].  As the title might seem to suggest, this
-   is an updated presentation of the project at a similarly high level
-   as that first essay, with the added perspective of having made a
-   certain amount of progress on the project since then.  More
-   specifically however, the title foregrounds the notion of "steps",
-   which play a central role in the story I will tell here.  So I
-   begin by talking about steps.  This discussion will lead to what is
-   meant by "centers of attention".  First we will go over the basics
-   of attending, what it means to attend to something.  Then we will
-   will get into the unique properties of human joint attention.  This
-   will involve a gentle overview of the main gists of Michael
-   Tomasello's thesis on cooperative communication and Charles
-   S. Peirce's theory of symbol and semiotic self-control, in order to
-   describe what a center of attention is, and how it is something we
-   are all very familiar with since our very first experiences with
-   joint attention from infancy. This is where we can start to talk
-   about scaffolding, which is about the use of tools (including signs
-   and graphical practices) to center our attending to practice.
-   Scaffolding has been a ubiquitous part of human experience as long
-   as we've been human, even before we were homo sapiens.  We will
-   present the senters vision for the future of scaffolding, and how
-   it differs in character from the ways technology is involved in
-   present-day human culture. While we don't yet know what we'll learn
-   in a fully realized attention-flow computing ecosystem of the kind
-   the senters project is proposing, this essay will attempt to paint
-   a picture of the likely experience and impact of intelligently
-   augmented sensemaking.
+   This essay maps a path toward a practice and a technology I call
+   attention-flow computing.  Attention-flow computing is a way of
+   extending basic ways of participating in situations with tools that
+   meaningfully support participating in these situations.  Computing
+   today is rigid, requires a great deal of development effort to
+   create any semblance of limited contextual fit, and most typically
+   distracts from basic modes of interaction rather than enriching
+   them.  It lacks a robust grip on context, and can only pretend to
+   work with content.  Attention-flow computing is proposed as a way
+   for our tools to be flexibly expressive, follow context, and
+   augment personal and social tasks.  The essay has three parts, in
+   sum bridging the mechanical resources of computing with the
+   ecological domain of perception and semiotics.  The first part
+   addresses the problem of context, the second part explores how
+   information content is constructed socially given the facilities to
+   scaffold and generalize task context, and the third explores how
+   our tools can participate deeply and meaningfully in these
+   processes via an attention-flow approach.
 
-** What are Steps?
+*** About This Essay's Approach
 
-   Of the Oxford English Dictionary's definitions of "step", the
-   following are the most relevant to the way we will be using the
-   term.
+    In the article "Centers of Attention" (TODO: link) I motivate
+    attention-flow from empirical and theoretical research, citing the
+    sources that I rely on to do some of the heaviest lifting.  In
+    this article I do not cite sources, and instead work backwards
+    from high-level intuitions to fill out increasing detail.  The
+    emphasis here is on presenting the simple elegance and directness
+    of this approach to computing, with as few potentially distracting
+    complications as possible.  Everything written here is either
+    explained further in Centers of Attention or follows from what is
+    written there, however the more academic style of that essay risks
+    obscuring the simplicity of the approach, hence the need for this
+    one.
 
-   #+BEGIN_QUOTE
-   "a measure or action, especially one of a series taken in order to
-   deal with or achieve a particular thing."
+** Part I: Context
 
-   [example] "a major step forward in the fight for justice"
-   #+END_QUOTE
+*** The Context Could Not Be Found
 
-   #+BEGIN_QUOTE
-   "a stage in a gradual process."
+    In computing, uses of the word "context" tend to fall into two
+    categories: machine state context and human task context.  In
+    theory these two uses should more or less align, but in practice
+    the coordination of machine and human context has turned out to be
+    incredibly difficult.
 
-   [example] "sales are up, which is a step in the right direction"
-   #+END_QUOTE
+    Human task context: when defining our aspirations for the behavior
+    of software, we consider where it fits into the meaning or purpose
+    of real human tasks that it is involved in. Context in that sense
+    is the most valuable kind for software to achieve.  In practice,
+    success has been very limited.
 
-   #+BEGIN_QUOTE
-   "a particular position or grade on an ascending or hierarchical scale."
+    Machine state context: when constructing computing systems to
+    perform behaviors, we use data to maintain states that software
+    behaviors are conditioned on. For example in Clojure, we might
+    have a function that receives a hash-map named "context", which
+    contains a variety of keys with values that inform this function
+    about the situation in which it finds itself.  Of course I don't
+    mean this literally, just that the behavior of the software is
+    different when it has, for example, a valid JWT token than when it
+    doesn't.
 
-   [example] "the first step on the managerial ladder"
-   #+END_QUOTE
+    Machine state context (conditioning of system state on data) is
+    the only means we have of achieving the human task-oriented kind
+    of context (aligning system behaviors with humanly meaningful
+    tasks).  Abstractly (and with some important details we we will
+    get into) it also seems to be the only conceivable means by which
+    nature directs any system behavior in context.  In order to do as
+    well as nature in our synthetic systems, it stands to reason that
+    we should inquire into what information humans, and natural agents
+    more broadly, such as animals, plants, fungi, bacteria, etc
+    condition their behavior upon.
+
+*** Context for Natural Agents
+
+    Context is not humanly unique.  In fact the core mechanics of
+    context apply to all six kingdoms of biological life.  All systems
+    that are characterized by system-environment duality, which is to
+    say systems that maintain constitutive boundaries of
+    physico-chemical closure distinct from the default flow of
+    physico-chemical causal effects, have *agency*. This is to say
+    they are control systems bent on "holding it together", and out of
+    the need to hold it together (to self-maintain) arises a
+    task-oriented mode of system organization.  That is the mechanism
+    of context-- from prokaryote to human.
+
+    Let's unpack this a bit.  Agency, for a self-maintenant physical
+    system, means control.  Control is physical organization that
+    corrects itself to achieve a target condition (positive feedback)
+    or adjusts itself to maintain an existing state or condition
+    (negative feedback).  Biological agents engage in homeostatic
+    (negative) control in order to preserve vital boundary conditions,
+    and allostatic (positive) control in indirect service of core
+    homeostatic processes.
+
+    Allostatic control is task-oriented.  For example it can take the
+    form of movement toward a food source, or movement away from a
+    predator or a toxic substance.  Much of control is not aimed
+    toward altering one's position or environment, but rather altering
+    one's position and environment in order to gain awareness of what
+    options for action toward ends are available.  This is what we
+    call perception.  When agents, through their behavior, establish
+    awareness of what results further behaviors in the immediate
+    situation will produce, they have picked up "ecological
+    information" for action.  Ecological information is the product of
+    perception-action, and is the most real awareness of surroundings
+    that any agent can have.
+
+*** Perception-action, Attention, and Task
+
+    #+BEGIN_QUOTE
+    "[Attention] refers to bringing our perception in line with our
+    task, of efficiently picking up the information necessary to
+    perform some task." -- Eleanor Gibson & Nancy Rader, "The
+    Perceiver as Performer"
+    #+END_QUOTE
+
+    We mentioned above that allostatic control (including
+    perception-action, which produces information on options for
+    behaviors to produce specific results) is rooted in homeostatic
+    preservation of vital conditions.  An important consequence of
+    this fact is that agents are fundamentally engaged in an
+    optimization of vital relavance we call attention.
+
+    Attention is the organization of perception-action in line with
+    what matters.  In practice that means attention is reconfiguration
+    of resources to include those in service of the target condition
+    and to exclude those that are not.  This is what we call focus.
+    What do we mean by "resources" here?  We mean picking up
+    information for action, as well as supporting subtasks.
+
+    Attention gives structure to a task.  A task has three phases or
+    aspects:
+    1. the factors involved in initiating a task, including its
+       possibility, feasibility, and motivation.
+    2. the factors involved in inclusion of resources as supporting
+       the focus of a task.
+    3. the factors involved in evaluating the achievement or
+       realization of the task.
+
+    Whereas ecological information itself (a product of
+    perception-action tasks) offers a deterministic causal path
+    between grasped pragmatic states of initiation and realization,
+    tasks themselves are indirect and iterative.  Between the
+    conditions for initiation and the conditions for realization, the
+    agent configures and reconfigures focus, assembling the necessary
+    resources.
+
+    This optimization of focus has sometimes been called "attention
+    economy".  To achieve greater economy, agents as a rule favor
+    compression of focus into reusable task resources.  This is also
+    related to what has identified time and time again as a
+    fundamental principle of cognition: understanding is compression.
+
+*** The Task as Context
+
+    Given this explication of tasks, we are in a place to talk about
+    context.  For natural agents, all awareness and action is
+    task-oriented, and as such the context of any task is its
+    importance to accomplishing another task, or if not other tasks
+    then baseline phenotypical homeostatic variables.
+
+    The context of any action is the situated task or tasks that its
+    realized causal effect is targeted in support of.  Context
+    therefore is developed in the nesting of subtasks in the focus of
+    a task.  The task as context encompasses concerns and awareness of
+    the situation at hand, by means of resources brought to bear,
+    including the pickup of ecological information for action, and the
+    convention-based semiotic use of information (more on this below.)
+
+    This characterization of context applies to all natural agents,
+    and in theory synthetic agents can benefit from this design, which
+    we'll have much to say about in Part III.  But there is also more
+    to say about context in part II of this essay, where the power of
+    context is expanded by semantic information content abilities thus
+    far in evoltion unique to human agents, as far as we can tell.
+
+*** Steps in Context
+
+    The title of this essay is not merely a cute inversion of
+    Bateson's book title and a reference to my 2018 essay where I
+    developed the first rudimentary sketch of attention flow, though
+    it also those things.  First and foremost, the notion of an
+    ecology of steps is (as is explored especially in Part III) the
+    main idea of attention-flow computing.  But prior to all that,
+    what do we mean by "step".
+
+    In computing when we speak of a step, we mean an operation, given
+    some state, executed in a sequence of other steps, resulting in
+    successive changes of state to some final state.  The process of
+    deciding the steps is called an algorithm, or a heuristic,
+    depending on how neatly prescribed the process is.  In the agent
+    context we mean in some sense the same thing, but with constraints
+    that narrow the qualifying scope.
+
+    When an agent performs a task, the factors dedicing what steps to
+    take are the causal factors defining the task: engaging the task,
+    supporting the task (focus), and realizing the task. The task
+    itself is also quite often actively adjusted in a process of
+    reorganization to better realize its end.  A step in this sense is
+    a dependency within a task context.  Taking a step can mean
+    attending to a supporting task that requires further attention, or
+    it can mean attending to a task that handily acheives its end
+    without further attention.
+
+*** The Task as Symbol
+
+    A discovery that arises from this agent-centric view of process
+    execution is an answer to a question we posed at the beginning of
+    Part I: what information do agents condition their behavior on?
+    First, we depend on ecological information in order to perceive
+    our surroundings reliably.  In order to acquire such information
+    we engage in tasks of prospective allostatic control.  The conduct
+    of such tasks develops skills of pragmatic task execution, ways of
+    knowing and doing that leverage resources to achieve vital ends.
+    The structure implicit in such skill is best described or mapped
+    as a graph topology of nodes of skillful awareness, consisting in
+    causal expectations (for engaging, supporting, and realizing
+    tasks).
+
+    There is a "bottom-up" and a "top-down" relationship between
+    ecological information on one hand and task know-how on the other.
+    Agents are always skillfully probing their environments and become
+    aware of possibilities for action-- in that case the pickup of
+    ecological information propagates bottom-up to attentionally
+    relevant task dynamics leveraging these action options.  In the
+    top-down case, an agent is engaged in a task and probes the
+    environment to acquire the specific resources needed for the task.
+
+    Biosemiotics, still in its infancy, has undertaken to discover the
+    ways in which even some of the most basic agent control behaviors
+    are scaffolded by convention, most often innately so.  Something
+    that has become clear in these developments is that the semiotic
+    structure of control identified by Charles Sanders Peirce, which
+    modern biosemiotics has found to be a relevant and efficacious
+    model for biology, maps cleanly onto the structure of tasks as
+    studied by modern ecological psychology in the school of James
+    Jerome Gibson (the research paradigm that has most strongly guided
+    the direction taken in this essay.)  Peirce's formulation of the
+    symbol is a mode of control in which a sign vehicle (engaging the
+    task) leads to a targeted final object (realizing the task) but
+    only via the indirection of an interpretant (the supporting focus
+    of the task).
+
+    The term *center* (of attention) is a way of addressing the
+    prospective control task as a nexus of semiotic self-control (AKA
+    a symbol), and vice versa.  The term is useful because these
+    phenomena are one and the same, but there is no prior vocabulary
+    with which to understand tasks as semiotic control systems, and
+    symbols as systems of attention concerning the acquisition and use
+    of information.
+
+*** Context in Context
+
+    As we seek to align machine behavior with human-relevant context,
+    we can look to ecological information, and topologies of
+    attention-flow-- motivated flows between centers of attention-- as
+    a clear contender for the data on which to align.  The activity of
+    biological organisms of all varieties is governed by the scarcity
+    of attention and the need to put the most important matters front
+    and center.  Centering and focusing is a reorganization of
+    instrumented resources in support of getting to a more preferred
+    situation.  To make context clear is to make the structure of the
+    attention-flow followable.
+
+** Part II: Content
+
+
+
+** Part III: Computing with Context and Content
